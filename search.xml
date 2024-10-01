@@ -5896,6 +5896,19 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
 </tr>
 </tbody>
 </table>
+<p>时钟逻辑有<em>同步</em>和<em>异步</em>两种，在同步时钟逻辑下，所有逻辑跑在同一频率下。<code>m_axi_sg_aclk</code>、<code>m_axi_mm2s_aclk</code>、<code>m_axi_s2mm_aclk</code>三个时钟信号需要绑定在同一个时钟源下。<code>s_axi_lite_aclk</code>可以给一个频率低一点的时钟。在异步时钟逻辑下，只需保证<code>s_aci_lite_aclk</code>频率小于等于<code>m_axi_sg_aclk</code>小于等于<code>m_axi_mm2s_aclk</code>、<code>m_axi_s2mm_clk</code>中较小的那个。</p>
+<h2 id="编程顺序（即想使用AXI-DMA我需要从何开始）">编程顺序（即想使用AXI-DMA我需要从何开始）</h2>
+<h3 id="1-Direct-Register-Mode-直接寄存器模式-Simple-DMA-简单DMA">1. Direct Register Mode 直接寄存器模式 (Simple DMA, 简单DMA)</h3>
+<p>在简单DMA模式下，Scatter/Gather功能是用不到的（Disabled），数据传输通过对DMACR（DMA Control Register）、源地址、目的地址和长度寄存器的访问初始化发起传输。传输完成后，如果使能了中断输出，那么DMASR(Status Register).IOC_lrq会有效，生成一个中断输出。MM2S和S2MM均可使用。</p>
+<p>DMA的MM2S（存储器映射到Stream通道）的配置：</p>
+<ol>
+<li>MM2S_DMACR.RS = 1 (Run/Stop 比特置1，启动通道运行)；DMASR.Halted = 0 (暂停位置低，表示MM2S通道正在运行)；</li>
+<li>（可选，推荐，用于中断信号产生）MM2S_DMACR.IOC_IrqEn = 1; MM2S_DMACR.Err_IrqEn = 1;</li>
+<li>MM2S_SA寄存器中写一个有效的源地址。注意源地址需对齐。<br>
+（补：何为地址对齐（Data Alignment），假如存储映射区的数据位宽为32b，一个寄存器存储8b的数据，所以32b需要4个寄存器，数据地址应以4进行偏移：0x0, 0x4, 0x8, 0xC. 如果使能数据重对齐（Data-realignment enable, DRE），则AXI Stream的数据只要小于128b，源地址的偏移量可以是任意的）</li>
+<li>MM2S_LENGTH寄存其中写要传输的数据的字节数。且该寄存器是必须最后一个配置，其他寄存器配置可以是任意顺序的。</li>
+</ol>
+<p>S2MM的操作和上面一模一样…</p>
 ]]></content>
       <categories>
         <category>学习日志</category>
