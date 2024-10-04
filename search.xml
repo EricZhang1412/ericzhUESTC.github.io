@@ -5969,11 +5969,38 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
 <td>AXI Direct Memory Access, <em>S_AXIS_S2MM</em></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>AXI4 Stream Data FIFO, <em>S_AXIS</em></td>
+<td>AXI Direct Memory Access, <em>M_AXIS_MM2S</em></td>
+</tr>
+<tr>
+<td>AXI Direct Memory Access, <em>mm2s_introut</em></td>
+<td>Concat, <em>In0[0:0]</em></td>
+</tr>
+<tr>
+<td>AXI Direct Memory Access, <em>s2mm_introut</em></td>
+<td>Concat, <em>In1[0:0]</em></td>
+</tr>
+<tr>
+<td>Concat, <em>dout[1:0]</em></td>
+<td>Zynq7 Processing System, <em>I2Q_F2P[0:0]</em></td>
 </tr>
 </tbody>
 </table>
+<p>④: 又出现<em>Run Connection Automation</em>, 因为我们还没有配置FIFO的时钟复位等接口。继续点击它：<br>
+<img src="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/20241004151751.png" alt="Run Connection Automation三周目"></p>
+<p>不做任何修改，点击OK。</p>
+<p>至此，工程创建完成，为下图所示。<br>
+<img src="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/design_3.png" alt="创建完成的工程"></p>
+<h3 id="3-2-6-生成RTL输出文件">3.2.6 生成RTL输出文件</h3>
+<blockquote>
+<p>注意，在此之前一定要做<em>Create HDL Wrapper</em>.</p>
+</blockquote>
+<p>在Sources-&gt;Design Sources-&gt;design_1 (design_1.bd)上右键点击<em>Generate Output Products</em>. 在弹出界面中更改Synthesis Options为<em>Out of context per IP</em>。必要时可增大Number of jobs。点击Generate。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/20241004152357.png" alt="生成RTL输出文件"></p>
+<p>等待RTL工程生成完成。</p>
+<h3 id="3-2-7-生成比特流">3.2.7 生成比特流</h3>
+<p>点击<em>Generate Bitstream</em>.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/20241004153053.png" alt="生成比特流"></p>
 ]]></content>
       <categories>
         <category>学习日志</category>
