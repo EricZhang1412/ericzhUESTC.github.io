@@ -6003,8 +6003,9 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
 <p><img src="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/20241004153053.png" alt="生成比特流"></p>
 <p>生成之后，点击Cancel。准备之后的SDK生成。</p>
 <h3 id="3-2-8-生成SDK">3.2.8 生成SDK</h3>
-<p>点击File-&gt;Export-&gt;Export Hardware。弹出窗口中勾选<em>Include bitstream</em>，其余不变。点击OK。<br>
+<p>①: 点击File-&gt;Export-&gt;Export Hardware。弹出窗口中勾选<em>Include bitstream</em>，其余不变。点击OK。<br>
 <img src="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/20241004153935.png" alt="Export Hardware"></p>
+<p>②: 点击File-&gt;Launch SDK</p>
 ]]></content>
       <categories>
         <category>学习日志</category>
