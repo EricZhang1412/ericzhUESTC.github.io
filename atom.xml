@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2024-10-05T12:36:51.565Z</updated>
+  <updated>2024-10-05T13:42:06.746Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/"/>
     <id>http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/</id>
     <published>2024-10-05T12:17:11.000Z</published>
-    <updated>2024-10-05T12:36:51.565Z</updated>
+    <updated>2024-10-05T13:42:06.746Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="参考资料">参考资料</h2><ol><li><a href="https://docs.amd.com/r/en-US/pg022_axi_datamover">Xilinx User Guide: pg022_axi_datamover</a></li></ol><h2 id="AXI-Datamover-IP-概述">AXI Datamover IP 概述</h2><p>（这次主播决定从官方手册出发，仔细研读手册内容从而达到能够独立开发该IP的目的。）</p><p>AXI DataMover和AXI DMA的功能非常相似，都是为在<code>AXI4 memory-mapped（AXI4存储器映射）</code>和<code>AXI4-Stream domains（AXI4流数据）</code>之间提供高吞吐的数据传输。该IP核的MM2S(即Memory-map to Stream)和S2MM(即Stream to Memory-map)通道独立运作，整体通信是<strong>全双工</strong>的。</p><blockquote><p>内存映射（Memory Mapping）是一种将文件内容映射到进程的虚拟地址空间的技术。在这种机制下，文件可以被视为内存的一部分，从而允许程序直接对这部分内存进行读写操作，而无需传统的文件 I/O 调用。这种方法不仅简化了文件操作，还提高了处理效率。</p></blockquote><p>首先要头脑清醒：MM2S是负责读Memory-map的，S2MM是负责写Memory-map。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="参考资料">参考资料</h2><ol><li><a href="https://docs.amd.com/r/en-US/pg022_axi_datamover">Xilinx User Guide: pg022_axi_datamover</a></li></ol><h2 id="AXI-Datamover-IP-概述">AXI Datamover IP 概述</h2><p>（这次主播决定从官方手册出发，仔细研读手册内容从而达到能够独立开发该IP的目的。）</p><p>AXI DataMover和AXI DMA的功能非常相似，都是为在<code>AXI4 memory-mapped（AXI4存储器映射）</code>和<code>AXI4-Stream domains（AXI4流数据）</code>之间提供高吞吐的数据传输。该IP核的MM2S(即Memory-map to Stream)和S2MM(即Stream to Memory-map)通道独立运作，整体通信是<strong>全双工</strong>的。</p><blockquote><p>**内存映射（Memory Mapping）**是一种将文件内容映射到进程的虚拟地址空间的技术。在这种机制下，文件可以被视为内存的一部分，从而允许程序直接对这部分内存进行读写操作，而无需传统的文件 I/O 调用。这种方法不仅简化了文件操作，还提高了处理效率。支持4KB的边界保护以及自动拆解太长的burst</p></blockquote><blockquote><p>AXI Stream: 一种高速流传输的AXI总线协议，详情见ARM官方手册：<a href="https://developer.arm.com/documentation/ihi0051/b/?lang=en">AMBA AXI-Stream Protocol Specification</a></p></blockquote><p>首先要头脑清醒：MM2S是负责读Memory-map的，S2MM是负责写Memory-map。</p><h2 id="特性总结">特性总结</h2><h3 id="和AXI4，AXI4-Stream接口完全兼容">和AXI4，AXI4-Stream接口完全兼容</h3><h3 id="AXI4-Stream-数据宽度必须小于或等于相应通道的-AXI4-数据宽度。">AXI4-Stream 数据宽度必须小于或等于相应通道的 AXI4 数据宽度。</h3><h3 id="最大的Memory-map突发传输长度">最大的Memory map突发传输长度</h3><p>AXI MM2S Memory Map接口可以配置突发传输的粒度/大小。例如，如果突发长度设置为 16，则内存映射接口上的最大突发为 16 个数据节拍。</p><blockquote><p>在AXI总线中，ARLEN、ARSIZE和BURST LENGTH是三个关键参数，它们之间有着密切的关系，共同决定了突发传输的特性。参考<a href="https://blog.csdn.net/weixin_41230430/article/details/141338346">此博客</a>，但该IP中用户不可操作ARLEN、ARSIZE，只能配置BURST LENGTH。</p></blockquote><h3 id="支持地址未对齐的传输">支持地址未对齐的传输</h3><p>可选择支持数据重新对齐引擎 （Data Realignment Engine，DRE）</p><h3 id="支持异步时钟">支持异步时钟</h3><h3 id="可选存储和转发功能">可选存储和转发功能</h3><h3 id="支持-S2MM-通道的可选不确定-BTT（Byte-to-Transfer）-模式">支持 S2MM 通道的可选不确定 BTT（Byte to Transfer） 模式</h3><h2 id="性能">性能</h2><p>此处主要讲IP的时钟配置，Zynq-7000系列均封装的是Artix-7的PL，所以依照User Guide，我们可以得知：</p><table><thead><tr><th>Speed Grade</th><th>Clock Frequency(MHz)</th></tr></thead><tbody><tr><td>-1</td><td>AXI4: 150, AXI4-Stream: 150</td></tr><tr><td>-2</td><td>AXI4: 180, AXI4-Stream: 180</td></tr><tr><td>-3</td><td>AXI4: 200, AXI4-Stream: 200</td></tr></tbody></table><h2 id="端口说明">端口说明</h2><table><thead><tr><th>Signal Name</th><th>Interface</th><th>Description</th></tr></thead><tbody><tr><td>m_axi_mm2s_aclk</td><td>MM2S</td><td>MM2S 通道的主时钟</td></tr></tbody></table>]]></content>
     
     
       
