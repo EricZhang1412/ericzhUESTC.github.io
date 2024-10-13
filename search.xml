@@ -6084,9 +6084,16 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
       </tags>
   </entry>
   <entry>
-    <title>MNIT</title>
-    <url>/2024/10/13/MNIT/</url>
-    <content><![CDATA[]]></content>
+    <title>毕业设计（三）文献调研：MINT-SNN</title>
+    <url>/2024/10/13/MINT/</url>
+    <content><![CDATA[<h2 id="Abstract">Abstract</h2>
+<p>本文创新点：</p>
+<ol>
+<li>将存储密集型的膜电位量化到了极低2bit精度。</li>
+<li>在权重和膜电位数据的均匀量化中共享缩放因子。</li>
+<li>效果：2-bit的VGG-SNN-16：90.6%（CIFAR10），memory footprint减少93.8%，computational energy减少90%。</li>
+</ol>
+]]></content>
       <categories>
         <category>毕业设计</category>
       </categories>
