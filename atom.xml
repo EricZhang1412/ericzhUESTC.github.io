@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2024-10-13T03:25:22.232Z</updated>
+  <updated>2024-10-13T06:07:44.614Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.ericzhuestc.site/2024/10/13/MINT/"/>
     <id>http://www.ericzhuestc.site/2024/10/13/MINT/</id>
     <published>2024-10-13T03:10:21.000Z</published>
-    <updated>2024-10-13T03:25:22.232Z</updated>
+    <updated>2024-10-13T06:07:44.614Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Abstract">Abstract</h2><p>本文创新点：</p><ol><li>将存储密集型的膜电位量化到了极低2bit精度。</li><li>在权重和膜电位数据的均匀量化中共享缩放因子。</li><li>效果：2-bit的VGG-SNN-16：90.6%（CIFAR10），memory footprint减少93.8%，computational energy减少90%。</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="Abstract">Abstract</h2><p>本文创新点：</p><ol><li>将存储密集型的膜电位量化到了极低2bit精度。</li><li>在权重和膜电位数据的均匀量化中共享缩放因子。</li><li>效果：2-bit的VGG-SNN-16：90.6%（CIFAR10），memory footprint减少93.8%，computational energy减少90%。</li></ol><h2 id="Introduction">Introduction</h2>]]></content>
     
     
       
