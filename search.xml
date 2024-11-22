@@ -6107,7 +6107,25 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
   <entry>
     <title>计算神经科学中的高效编码机制探究</title>
     <url>/2024/11/22/Efficient-encoding-for-neuroscience/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1>Refs</h1>
+<ol>
+<li>
+<p>Energy-Efficient Neuronal Computation via Quantal Synaptic Failures, William B. Levy and Robert A. Baxter; vThe Journal of Neuroscience, June 1, 2002, 22(11)</p>
+</li>
+<li></li>
+</ol>
+<h1>Quantal Synaptic Failures</h1>
+<p>主要参考Ref.1.</p>
+<h2 id="Prior-Knowledge-Basic-Mathematical-Modeling-of-Neurons-a-information-theory-perspective">Prior Knowledge: Basic Mathematical Modeling of Neurons, a information theory perspective.</h2>
+<p><em>Perspective 1</em>: <strong>树突体求和</strong> 等价于 <strong>香农信道</strong>。</p>
+<p>随机的突触信号传递过程被视作树突体求和的一部分，而不是像之前视作轴突信息传递。生物学家曾观测到，每一次动作电位的发放导致的神经递质传递是存在一定的故障率的。</p>
+<blockquote>
+<p>在海马体和新皮质中，兴奋性突触占主导地位，且非常不可靠。动作电位达到突触前时引起的神经递质量子包发放的概率约为0.25-0.5（0.25最常见）。<br>
+In the hippocampus and in neocortex, excitatory synaptic connections dominate and are remarkably unreliable. Each synapse transmits, at most, a single standardized package called a quantum (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>4</mn></msup></mrow><annotation encoding="application/x-tex">10^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span> neurotransmitter molecules). When an action potential arrives presynaptically, the probability of evoking the release of one such quantal package is reported to range from 0.25 to 0.5 with 0.5 being less common and 0.25 being quite common (Thomson, 2000), especially when one takes into account the spontaneous rates of neurons (Stevens and Wang, 1994; Destexhe and Pare´, 1999).</p>
+</blockquote>
+<h1></h1>
+<h1></h1>
+]]></content>
       <categories>
         <category>学习日志</category>
       </categories>
