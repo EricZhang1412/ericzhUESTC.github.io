@@ -6105,6 +6105,19 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
       </tags>
   </entry>
   <entry>
+    <title>计算神经科学中的高效编码机制探究</title>
+    <url>/2024/11/22/Efficient-encoding-for-neuroscience/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习日志</category>
+      </categories>
+      <tags>
+        <tag>SNN</tag>
+        <tag>Encoding</tag>
+        <tag>Neuroscience</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>album</title>
     <url>/album/index.html</url>
     <content><![CDATA[]]></content>
