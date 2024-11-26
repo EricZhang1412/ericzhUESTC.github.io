@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2024-11-25T07:44:35.440Z</updated>
+  <updated>2024-11-26T06:11:55.500Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Explainable neuromorphic computing</title>
+    <link href="http://www.ericzhuestc.site/2024/11/26/explainable-neuromorphic-computing/"/>
+    <id>http://www.ericzhuestc.site/2024/11/26/explainable-neuromorphic-computing/</id>
+    <published>2024-11-26T06:11:02.000Z</published>
+    <updated>2024-11-26T06:11:55.500Z</updated>
+    
+    
+    
+    
+    
+    <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
+    
+    <category term="[object Object]" scheme="http://www.ericzhuestc.site/tags/object-Object/"/>
+    
+    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="neuromorphic computing" scheme="http://www.ericzhuestc.site/tags/neuromorphic-computing/"/>
+    
+    <category term="神经网络可解释性" scheme="http://www.ericzhuestc.site/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>ANN2SNN Principles</title>
@@ -37,9 +60,9 @@
     
     <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
     
-    <category term="Neuroscience" scheme="http://www.ericzhuestc.site/tags/Neuroscience/"/>
-    
     <category term="ANN2SNN" scheme="http://www.ericzhuestc.site/tags/ANN2SNN/"/>
+    
+    <category term="Neuroscience" scheme="http://www.ericzhuestc.site/tags/Neuroscience/"/>
     
     <category term="[object Object]" scheme="http://www.ericzhuestc.site/tags/object-Object/"/>
     
@@ -70,9 +93,9 @@
     
     <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
     
-    <category term="Encoding" scheme="http://www.ericzhuestc.site/tags/Encoding/"/>
-    
     <category term="Neuroscience" scheme="http://www.ericzhuestc.site/tags/Neuroscience/"/>
+    
+    <category term="Encoding" scheme="http://www.ericzhuestc.site/tags/Encoding/"/>
     
   </entry>
   
@@ -437,11 +460,11 @@
     <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
     
     
-    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
+    <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
     
     <category term="FPGA" scheme="http://www.ericzhuestc.site/tags/FPGA/"/>
     
-    <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
+    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
     
     <category term="计算机体系架构" scheme="http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
     
@@ -495,9 +518,9 @@
     <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
     
     
-    <category term="FPGA" scheme="http://www.ericzhuestc.site/tags/FPGA/"/>
-    
     <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
+    
+    <category term="FPGA" scheme="http://www.ericzhuestc.site/tags/FPGA/"/>
     
     <category term="DNN Acceleration" scheme="http://www.ericzhuestc.site/tags/DNN-Acceleration/"/>
     
@@ -569,32 +592,6 @@
     <category term="精密测量" scheme="http://www.ericzhuestc.site/tags/%E7%B2%BE%E5%AF%86%E6%B5%8B%E9%87%8F/"/>
     
     <category term="电子设计" scheme="http://www.ericzhuestc.site/tags/%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spike-Driven Transformer</title>
-    <link href="http://www.ericzhuestc.site/2024/01/04/Spike-Driven-Transformer/"/>
-    <id>http://www.ericzhuestc.site/2024/01/04/Spike-Driven-Transformer/</id>
-    <published>2024-01-04T05:14:09.000Z</published>
-    <updated>2024-07-25T07:37:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="1-注意力机制（Attention）">1.注意力机制（Attention）</h2><h3 id="1-1-自注意力机制-（Self-Attention）">1.1 自注意力机制 （Self-Attention）</h3><p>为了处理序列数据，自注意力采取的策略是，吃一整个序列，再根据输入的向量（一段序列）决定输出一个向量，再进入传统的FC，换言之，是考虑了整个序列之后输出一个结果。Self-Attention也可以与FC交替做很多次：</p><p><img src="https://picss.sunbangyan.cn/2024/01/06/24f707204a6f2386a0dc0f26a84ddbe9.jpeg" alt=""></p><p>那Self-Attention如何运作？</p><p>Self-Attention块的输入可以是一开始的输入层，也可以是中间的某个hidden layer的输出。考虑了所有的输入，输出与输入长度相等的一系列向量。例如<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>b</mi><mn>1</mn></msup></mrow><annotation encoding="application/x-tex">b^1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span>考虑了<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>a</mi><mn>1</mn></msup><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msup><mi>a</mi><mn>4</mn></msup></mrow><annotation encoding="application/x-tex">a^1, \dots , a^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0085em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span>。</p><p><img src="https://picss.sunbangyan.cn/2024/01/06/4c362abaad258fff2580054d6cf42ad2.jpeg" alt=""></p><p>以上图为例，怎么产生<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>b</mi><mn>1</mn></msup></mrow><annotation encoding="application/x-tex">b^1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span></span></span></span>这个输出呢？</p><p><img src="https://picdl.sunbangyan.cn/2024/01/06/0c06f1d7f85cf7dcc826c1dad3efaac5.jpeg" alt=""></p><p>有两种方法，其中Method 1是如今Transformer架构中用到的，也是注意力机制的主流架构，通过点积计算两向量的关联度。</p><p>应用中，把一个向量当作query（问询值），其余的所有当作key（键），进行关联度计算，得到Attention Score，再经过Softmax层进行归一化，得到最终的attention-score矩阵。（其实也不一定要softmax，只是前人试出来的）</p><p><img src="https://picdm.sunbangyan.cn/2024/01/06/3f0ae61e461f48d620d11ed43d8b8fee.jpeg" alt=""></p><p>根据Attention score, 再将每一个向量乘上矩阵<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="bold">W</mi><mi mathvariant="bold">v</mi></msup></mrow><annotation encoding="application/x-tex">\bold{W^v}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6861em;"></span><span class="mord"><span class="mord mathbf" style="margin-right:0.01597em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathbf mtight" style="margin-right:0.01597em;">v</span></span></span></span></span></span></span></span></span></span></span>得到<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="bold">v</mi><mi mathvariant="bold">i</mi></msup></mrow><annotation encoding="application/x-tex">\bold{v^i}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8491em;"></span><span class="mord"><span class="mord mathbf" style="margin-right:0.01597em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathbf mtight">i</span></span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi><msup><mi mathvariant="bold-italic">b</mi><mn mathvariant="bold">1</mn></msup></mi><mo>=</mo><msub><mo>∑</mo><mi>i</mi></msub><msubsup><mi>α</mi><mrow><mn>1</mn><mo separator="true">,</mo><mi>i</mi></mrow><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msubsup><mi><msup><mi mathvariant="bold-italic">v</mi><mi mathvariant="bold-italic">i</mi></msup></mi></mrow><annotation encoding="application/x-tex">\boldsymbol{b^{1}}=\sum_i\alpha_{1,i}^{\prime}\boldsymbol{v^{i}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathbf mtight">1</span></span></span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.2431em;vertical-align:-0.3948em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:0em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.162em;"><span style="top:-2.4003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2997em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-2.4413em;margin-left:-0.0037em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight">i</span></span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3948em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.03704em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8483em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord boldsymbol mtight">i</span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><p><img src="https://picst.sunbangyan.cn/2024/01/06/8aba1917ff8d456f95e7946750a4b531.jpeg" alt=""></p><p>看起来，每一个向量都要产生一个<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">q</mi><mo separator="true">,</mo><mi mathvariant="bold">k</mi><mo separator="true">,</mo><mi mathvariant="bold">v</mi></mrow><annotation encoding="application/x-tex">\bold{q}, \bold{k}, \bold{v}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathbf">q</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathbf">k</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathbf" style="margin-right:0.01597em;">v</span></span></span></span>, 那么我们完全可以用矩阵拼接的想法，将一连串的输入向量看作一个大矩阵<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">I</mi></mrow><annotation encoding="application/x-tex">\bold{I}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6861em;"></span><span class="mord mathbf">I</span></span></span></span>, 像下面这样简记为：</p><p><img src="https://picdm.sunbangyan.cn/2024/01/06/97f1cf81f7145f7b325d7883bc44f559.jpeg" alt=""></p><p>得到Q，K，V，如何去得到attention score呢？像下面展示的一样，A(attention score的信息矩阵)=<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>K</mi><mi>T</mi></msup><mi>Q</mi></mrow><annotation encoding="application/x-tex">K^TQ</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0358em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span><span class="mord mathnormal">Q</span></span></span></span></p><p><img src="https://picdl.sunbangyan.cn/2024/01/06/58942e469ab7b8959027da90652375c4.jpeg" alt=""></p><p><img src="https://picdl.sunbangyan.cn/2024/01/06/cf6ccc1ac8388277612373d3ee88fe5f.jpeg" alt=""></p><p>整个的Self-Attention运作的过程中，唯一需要学的三个参数就是<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>W</mi><mi>q</mi></msup><mo separator="true">,</mo><msup><mi>W</mi><mi>k</mi></msup><mo separator="true">,</mo><msup><mi>W</mi><mi>v</mi></msup></mrow><annotation encoding="application/x-tex">W^q, W^k, W^v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0435em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">q</span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">v</span></span></span></span></span></span></span></span></span></span></span></p><p>在此基础上，对原始Attention架构更改，得到Multihead Self-Attention：</p><p><img src="https://picss.sunbangyan.cn/2024/01/06/a9c343e5a4ab540db551635e85401930.jpeg" alt=""></p><h3 id="1-2-Self-Attention的不足之处">1.2 Self-Attention的不足之处</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;1-注意力机制（Attention）&quot;&gt;1.注意力机制（Attention）&lt;/h2&gt;
-&lt;h3 id=&quot;1-1-自注意力机制-（Self-Attention）&quot;&gt;1.1 自注意力机制 （Self-Attention）&lt;/h3&gt;
-&lt;p&gt;为了处理序列数据，自注意力采取</summary>
-      
-    
-    
-    
-    <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
-    
-    
-    <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
     
   </entry>
   
