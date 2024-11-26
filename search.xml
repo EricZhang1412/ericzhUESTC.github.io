@@ -5685,7 +5685,17 @@ u_c = \mathrm{clamp}(\frac{u_{nl}}{\alpha}, -1, 1)
   <entry>
     <title>Explainable neuromorphic computing</title>
     <url>/2024/11/26/explainable-neuromorphic-computing/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1>Ref.</h1>
+<ol>
+<li>Visual explanations from spiking neural networks using inter‑spike intervals</li>
+</ol>
+<h1>Main Contents</h1>
+<p>本文提出脉冲激活图（Spike Activation Map, SAM）, 无需反向传播或依赖梯度即可获得“视觉解释”. 这与Grad-CAM不同（通过反向传播计算梯度来量化浅层到深层神经元对目标类别预测的贡献）</p>
+<p>我们利用了这样一种生物学观察：<strong>短脉冲间隔（ISI）的脉冲在神经系统中包含更多信息</strong>，因为这些脉冲更可能通过提高神经元的膜电位来引发突触后脉冲。针对SNN所做出的预测，SAM为网络中的每个神经元计算一个<strong>神经元贡献分数（Neuronal Contribution Score, NCS）</strong>。NCS分数定义为先前脉冲的时间脉冲贡献分数（Temporal Spike Contribution Score, TSCS）的总和，并使用<strong>指数核函数</strong>计算。</p>
+<blockquote>
+<p>对于在短时间窗口内多次脉冲的神经元，TSCS较高；相反，对于在较长时间内发放脉冲的神经元，TSCS较低。</p>
+</blockquote>
+]]></content>
       <tags>
         <tag>SNN</tag>
         <tag>[object Object]</tag>
