@@ -1,5 +1,5 @@
-http://www.ericzhuestc.site/2024/11/24/ANN2SNN-Principles/
 http://www.ericzhuestc.site/2024/11/22/Efficient-encoding-for-neuroscience/
+http://www.ericzhuestc.site/2024/11/24/ANN2SNN-Principles/
 http://www.ericzhuestc.site/2024/10/13/MINT/
 http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/
 http://www.ericzhuestc.site/2024/10/01/Vivado-AXI-DMA/
