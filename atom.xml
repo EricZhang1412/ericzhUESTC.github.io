@@ -66,11 +66,11 @@
     <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
     
     
+    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
+    
     <category term="CLIP" scheme="http://www.ericzhuestc.site/tags/CLIP/"/>
     
     <category term="MultiModal" scheme="http://www.ericzhuestc.site/tags/MultiModal/"/>
-    
-    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
@@ -508,11 +508,11 @@
     <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
     
     
-    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
-    
     <category term="VFI" scheme="http://www.ericzhuestc.site/tags/VFI/"/>
     
     <category term="Event-based CV" scheme="http://www.ericzhuestc.site/tags/Event-based-CV/"/>
+    
+    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
