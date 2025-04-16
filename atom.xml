@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2024-12-07T11:35:35.427Z</updated>
+  <updated>2025-04-16T05:01:40.715Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DeepGEMM-Beginner</title>
+    <link href="http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/"/>
+    <id>http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/</id>
+    <published>2025-04-16T03:50:06.000Z</published>
+    <updated>2025-04-16T05:01:40.715Z</updated>
+    
+    <content type="html"><![CDATA[<h1>写在前面</h1><p>没错 这是一个新坑</p><h1>为什么要做DeepGEMM的探索</h1><p>某位师兄的MoE训练成本太高了，不得不借鉴Deepseek的FP8训练策略。于是我就来研究DeepGEMM了…</p><h1>使用的算力平台</h1><p>某超算中心（H20 Slrum）</p><h1>环境配置</h1><p>翻阅DeepGEMM的Github, 官方给出了所需的运行环境：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Requirements</span><br><span class="line">- Hopper architecture GPUs, sm_90a must be supported</span><br><span class="line">- Python 3.8 or above</span><br><span class="line">- CUDA 12.3 or above</span><br><span class="line">- But we highly recommend 12.8 or above <span class="keyword">for</span> the best performance</span><br><span class="line">- PyTorch 2.1 or above</span><br><span class="line">- CUTLASS 3.6 or above (could be cloned by Git submodule)</span><br></pre></td></tr></table></figure><p>除了CUTLASS，其他的模块在超算中心中的modulelist中都能找到，这里我使用的配置是：<br><code>gcc_compiler10.3.0</code> <code>cuda-12.4</code> <code>cmake-3.24.0rc4</code> <code>binutils-2.30</code>(忘记为什么要装了 保守起见就不删了)</p><h2 id="CUTLASS安装">CUTLASS安装</h2><p>参考NVIDIA <a href="https://github.com/NVIDIA/cutlass/blob/main/media/docs/cpp/quickstart.md">CUTLASS文档</a></p><p>具体不同版本的CUTLASS支持的GPU架构与Features不同版本的release中都有介绍。</p><h3 id="1-下载cutlass-3-8-0并解压到目录-CUTLASS-PATH">1. 下载cutlass-3.8.0并解压到目录<code>&#123;$CUTLASS_PATH&#125;</code></h3><h3 id="2-进入cutlass-3-8-0文件夹中创建build目录-运行cmake">2. 进入cutlass-3.8.0文件夹中创建build目录, 运行cmake</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &#123;<span class="variable">$CUTLASS_PATH</span>&#125;</span><br><span class="line"><span class="built_in">mkdir</span> build &amp;&amp; <span class="built_in">cd</span> build</span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> CUDACXX=<span class="variable">$&#123;CUDA_INSTALL_PATH&#125;</span>/bin/nvcc</span><br><span class="line"></span><br><span class="line">cmake .. -DCUTLASS_NVCC_ARCHS=90a            <span class="comment"># compiles for NVIDIA Hopper GPU architecture</span></span><br><span class="line">cmake .. -DCUTLASS_NVCC_ARCHS=100a           <span class="comment"># compiles for NVIDIA Blackwell SM100 GPU architecture</span></span><br></pre></td></tr></table></figure><p>因为本人用的算力平台全是H卡，故使用<code>cmake .. -DCUTLASS_NVCC_ARCHS=90a</code></p><p>控制台输出如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">(base) [sc100116@psn001 build]$ cmake .. -DCUTLASS_NVCC_ARCHS=90a</span><br><span class="line">-- CMake Version: 3.24.0-rc4</span><br><span class="line">-- CUTLASS 3.8.0</span><br><span class="line">-- The CUDA compiler identification is NVIDIA 12.4.131</span><br><span class="line">-- Detecting CUDA compiler ABI info</span><br><span class="line">-- Detecting CUDA compiler ABI info - <span class="keyword">done</span></span><br><span class="line">-- Check <span class="keyword">for</span> working CUDA compiler: /online1/public/support/intel/cuda/12.4/bin/nvcc - skipped</span><br><span class="line">-- Detecting CUDA compile features</span><br><span class="line">-- Detecting CUDA compile features - <span class="keyword">done</span></span><br><span class="line">-- Found CUDAToolkit: /online1/public/support/intel/cuda/12.4/include (found version <span class="string">&quot;12.4.131&quot;</span>) </span><br><span class="line">-- Performing Test CMAKE_HAVE_LIBC_PTHREAD</span><br><span class="line">-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed</span><br><span class="line">-- Looking <span class="keyword">for</span> pthread_create <span class="keyword">in</span> pthreads</span><br><span class="line">-- Looking <span class="keyword">for</span> pthread_create <span class="keyword">in</span> pthreads - not found</span><br><span class="line">-- Looking <span class="keyword">for</span> pthread_create <span class="keyword">in</span> pthread</span><br><span class="line">-- Looking <span class="keyword">for</span> pthread_create <span class="keyword">in</span> pthread - found</span><br><span class="line">-- Found Threads: TRUE  </span><br><span class="line">-- CUDART: /online1/public/support/intel/cuda/12.4/lib64/libcudart.so</span><br><span class="line">-- CUDA Driver: /online1/public/support/intel/cuda/12.4/lib64/stubs/libcuda.so</span><br><span class="line">-- NVRTC: /online1/public/support/intel/cuda/12.4/lib64/libnvrtc.so</span><br><span class="line">-- Default Install Location: /usr/local</span><br><span class="line">-- Found Python3: /home/export/base/sc100116/sc100116/online1/miniconda3/bin/python3.12 (found suitable version <span class="string">&quot;3.12.9&quot;</span>, minimum required is <span class="string">&quot;3.5&quot;</span>) found components: Interpreter </span><br><span class="line">-- CUDA Compilation Architectures: 90a</span><br><span class="line">-- Enable caching of reference results <span class="keyword">in</span> conv unit tests</span><br><span class="line">-- Enable rigorous conv problem sizes <span class="keyword">in</span> conv unit tests</span><br><span class="line">-- Using the following NVCC flags: </span><br><span class="line">  --expt-relaxed-constexpr</span><br><span class="line">  -DCUTLASS_TEST_LEVEL=0</span><br><span class="line">  -DCUTLASS_TEST_ENABLE_CACHED_RESULTS=1</span><br><span class="line">  -DCUTLASS_CONV_UNIT_TEST_RIGOROUS_SIZE_ENABLED=1</span><br><span class="line">  -DCUTLASS_DEBUG_TRACE_LEVEL=0</span><br><span class="line">  -Xcompiler=-Wconversion</span><br><span class="line">  -Xcompiler=-fno-strict-aliasing</span><br><span class="line">-- CUTLASS Revision: 4499c4c</span><br><span class="line">-- The C compiler identification is GNU 10.3.0</span><br><span class="line">-- Detecting C compiler ABI info</span><br><span class="line">-- Detecting C compiler ABI info - <span class="keyword">done</span></span><br><span class="line">-- Check <span class="keyword">for</span> working C compiler: /online1/public/support/intel/gcc_compiler/10.3.0/bin/gcc - skipped</span><br><span class="line">-- Detecting C compile features</span><br><span class="line">-- Detecting C compile features - <span class="keyword">done</span></span><br><span class="line">-- Found Python3: /home/export/base/sc100116/sc100116/online1/miniconda3/bin/python3.12 (found version <span class="string">&quot;3.12.9&quot;</span>) found components: Interpreter </span><br><span class="line">-- Configuring cublas ...</span><br><span class="line">-- cuBLAS Disabled.</span><br><span class="line">-- Configuring cuBLAS ... <span class="keyword">done</span>.</span><br><span class="line">-- Completed generation of library instances. See /home/export/base/sc100116/sc100116/online1/projects/DeepGEMM/cutlass-3.8.0/build/tools/library/library_instance_generation.log <span class="keyword">for</span> more information.</span><br><span class="line">-- Found Python3: /home/export/base/sc100116/sc100116/online1/miniconda3/bin/python3.12 (found suitable version <span class="string">&quot;3.12.9&quot;</span>, minimum required is <span class="string">&quot;3.5&quot;</span>) found components: Interpreter </span><br><span class="line">-- Enable device reference verification <span class="keyword">in</span> conv unit tests</span><br><span class="line">-- Configuring <span class="keyword">done</span></span><br><span class="line">-- Generating <span class="keyword">done</span></span><br><span class="line">-- Build files have been written to: /home/export/base/sc100116/sc100116/online1/projects/DeepGEMM/cutlass-3.8.0/build</span><br></pre></td></tr></table></figure><p>进行完cmake后，build目录下会生成一个Makefile文件，接下来就可以编译了。</p><p>CUTLASS在文档中会提示使用者可以选择性编译 CUTLASS GEMM 和卷积核，为的是尽量减少编译所需时间。作为初学者，我还是选择有啥编啥…</p><p>文档中也明确给出了可以使用以下 CMake 标志明确排除 cuBLAS 和 cuDNN 作为依赖项</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-DCUTLASS_ENABLE_CUBLAS=OFF</span><br><span class="line">-DCUTLASS_ENABLE_CUDNN=OFF</span><br></pre></td></tr></table></figure><p>这一步如果机器没有安装cuBLAS和cuDNN，用户不用特意去干预，先前的cmake会自动排除这两个依赖项。</p><h3 id="3-构建并运行-CUTLASS-Profiler">3. 构建并运行 CUTLASS Profiler</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make cutlass_profiler -j36</span><br></pre></td></tr></table></figure><p>然后就是漫长的编译过程…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
+&lt;p&gt;没错 这是一个新坑&lt;/p&gt;
+&lt;h1&gt;为什么要做DeepGEMM的探索&lt;/h1&gt;
+&lt;p&gt;某位师兄的MoE训练成本太高了，不得不借鉴Deepseek的FP8训练策略。于是我就来研究DeepGEMM了…&lt;/p&gt;
+&lt;h1&gt;使用的算力平台&lt;/h1&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="DeepGEMM" scheme="http://www.ericzhuestc.site/tags/DeepGEMM/"/>
+    
+    <category term="CUDA" scheme="http://www.ericzhuestc.site/tags/CUDA/"/>
+    
+    <category term="CUTLASS" scheme="http://www.ericzhuestc.site/tags/CUTLASS/"/>
+    
+    <category term="Efficiency" scheme="http://www.ericzhuestc.site/tags/Efficiency/"/>
+    
+  </entry>
   
   <entry>
     <title>My First Step in Bioinformatics</title>
@@ -573,29 +608,6 @@
     <category term="FPGA" scheme="http://www.ericzhuestc.site/tags/FPGA/"/>
     
     <category term="系统设计" scheme="http://www.ericzhuestc.site/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>STELLAR_HPCA_2024</title>
-    <link href="http://www.ericzhuestc.site/2024/06/17/STELLAR-HPCA-2024/"/>
-    <id>http://www.ericzhuestc.site/2024/06/17/STELLAR-HPCA-2024/</id>
-    <published>2024-06-17T05:57:38.000Z</published>
-    <updated>2024-07-25T07:54:00.000Z</updated>
-    
-    
-    
-    
-    <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
-    
-    
-    <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
-    
-    <category term="前沿论文阅读" scheme="http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="FPGA" scheme="http://www.ericzhuestc.site/tags/FPGA/"/>
-    
-    <category term="计算机体系架构" scheme="http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
     
   </entry>
   
