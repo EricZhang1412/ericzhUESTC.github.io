@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2025-04-17T11:48:07.122Z</updated>
+  <updated>2025-04-18T12:51:28.005Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.ericzhuestc.site/2025/04/17/Tricks-for-DeepSNN-Learning/"/>
     <id>http://www.ericzhuestc.site/2025/04/17/Tricks-for-DeepSNN-Learning/</id>
     <published>2025-04-17T11:31:38.000Z</published>
-    <updated>2025-04-17T11:48:07.122Z</updated>
+    <updated>2025-04-18T12:51:28.005Z</updated>
     
-    <content type="html"><![CDATA[<h1>写在前面</h1><p>这是可以说的吗🫣🫣🫣</p><h1>Efficient Training</h1><p>调超参的时候可以先试试用Imagenet的100类试试，调的差不多了再上全部。</p><h1>SNN Transformer Training</h1><p>Transformer的常用Base lr是1e-4，adamw下是1e-4到6e-4之间，lamb可能需要再精调。adamw的前期收敛性太强了建议学习率linear warmup，用log怕炸</p><p><a href="https://github.com/kyleliang919/C-Optim">C-Optim</a></p><p>stdconv -&gt; adaptive_clip<br>正常的linear就torch自带的clip</p><p>FasterViT?</p><h1>Spike-driven Transformer V2/V3</h1><p>检测与分割：除了backbone都是整数不norm</p><p>卷积算子貌似和整数（不带norm）很适配、attention貌似很和小数（带norm）适配</p>]]></content>
+    <content type="html"><![CDATA[<h1>写在前面</h1><p>这是可以说的吗🫣🫣🫣</p><h1>Efficient Training</h1><p>调超参的时候可以先试试用Imagenet的100类试试，调的差不多了再上全部。</p><h1>SNN Transformer Training</h1><p>Transformer的常用Base lr是1e-4，adamw下是1e-4到6e-4之间，lamb可能需要再精调。adamw的前期收敛性太强了建议学习率linear warmup，用log怕炸</p><p><a href="https://github.com/kyleliang919/C-Optim">C-Optim</a></p><p>stdconv -&gt; adaptive_clip clip_grad=0.02<br>正常的linear就torch自带的clip clip_grad=1 or 5</p><p>FasterViT?</p><h1>Spike-driven Transformer V2/V3</h1><p>检测与分割：除了backbone都是整数不norm</p><p>卷积算子貌似和整数（不带norm）很适配、attention貌似很和小数（带norm）适配</p>]]></content>
     
     
       
