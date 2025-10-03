@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2025-10-03T02:24:07.811Z</updated>
+  <updated>2025-10-03T02:39:29.332Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -21,11 +21,19 @@
     <link href="http://www.ericzhuestc.site/2025/10/03/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/"/>
     <id>http://www.ericzhuestc.site/2025/10/03/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/</id>
     <published>2025-10-03T02:24:07.000Z</published>
-    <updated>2025-10-03T02:24:07.811Z</updated>
+    <updated>2025-10-03T02:39:29.332Z</updated>
     
     
     
     
+    <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Colima" scheme="http://www.ericzhuestc.site/tags/Colima/"/>
+    
+    <category term="Docker" scheme="http://www.ericzhuestc.site/tags/Docker/"/>
     
   </entry>
   
