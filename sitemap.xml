@@ -11,9 +11,18 @@
   </url>
   
   <url>
+    <loc>http://www.ericzhuestc.site/2023/11/23/RNN%E9%83%A8%E5%88%86%E9%97%AE%E9%A2%98%E7%9A%84%E5%8E%9F%E7%90%86%E8%A7%A3%E9%87%8A/</loc>
+    
+    <lastmod>2025-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ericzhuestc.site/2025/09/24/Documentation-of-the-first-paper-revision/</loc>
     
-    <lastmod>2025-10-03</lastmod>
+    <lastmod>2025-10-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -29,342 +38,9 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/2025/09/08/Combinatorics/</loc>
-    
-    <lastmod>2025-09-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2025/09/09/Cloud-Computing/</loc>
-    
-    <lastmod>2025-09-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2025/09/09/Linux-Advanced-Programming/</loc>
-    
-    <lastmod>2025-09-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2025/09/08/Statistical-Learning-Theories-and-Applications/</loc>
-    
-    <lastmod>2025-09-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2025/09/08/Finite-Automaton-Theory/</loc>
-    
-    <lastmod>2025-09-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2025/04/17/Tricks-for-DeepSNN-Learning/</loc>
-    
-    <lastmod>2025-06-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/</loc>
-    
-    <lastmod>2025-05-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/11/23/RNN%E9%83%A8%E5%88%86%E9%97%AE%E9%A2%98%E7%9A%84%E5%8E%9F%E7%90%86%E8%A7%A3%E9%87%8A/</loc>
-    
-    <lastmod>2025-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/11/29/SpikingNN-on-trial/</loc>
-    
-    <lastmod>2025-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/06/30/Graduation-Project-Design/</loc>
-    
-    <lastmod>2025-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/04/30/FireFly-v1-FPGA-Simulation/</loc>
-    
-    <lastmod>2025-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/11/26/explainable-neuromorphic-computing/</loc>
-    
-    <lastmod>2025-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/07/13/Event-based-Video-Frame-Interpolation/</loc>
-    
-    <lastmod>2025-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/12/06/My-First-Step-in-Bioinformatics/</loc>
-    
-    <lastmod>2024-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/12/06/CLIP-papers/</loc>
-    
-    <lastmod>2024-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/12/02/Minkowski-Engine/</loc>
-    
-    <lastmod>2024-12-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/12/01/FilterNet/</loc>
-    
-    <lastmod>2024-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/11/22/Efficient-encoding-for-neuroscience/</loc>
-    
-    <lastmod>2024-11-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/11/24/ANN2SNN-Principles/</loc>
-    
-    <lastmod>2024-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/10/13/MINT/</loc>
-    
-    <lastmod>2024-10-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/</loc>
-    
-    <lastmod>2024-10-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/10/01/Vivado-AXI-DMA/</loc>
-    
-    <lastmod>2024-10-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/09/28/TianfuAIC-01/</loc>
-    
-    <lastmod>2024-09-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/08/21/Essay-writing/</loc>
-    
-    <lastmod>2024-08-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/08/12/VLSI-Design/</loc>
-    
-    <lastmod>2024-08-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/08/04/NAS-1/</loc>
-    
-    <lastmod>2024-08-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/07/28/MonarchMatrices/</loc>
-    
-    <lastmod>2024-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/07/23/ems-yolo-upgraded/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/06/17/VIT-Need-Regs-ICLR-2024/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/06/17/STELLAR-HPCA-2024/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/01/04/Spike-Driven-Transformer/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/05/27/Signals-Systems-Projects/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/03/28/OneOS-%E5%90%AF%E7%89%A9-v1-2-%E5%BC%80%E5%8F%91%E6%9D%BF%E7%9A%84Wifi%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/05/25/Notes-for-Comp-Network/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/06/29/FPGA-System-Design/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/11/09/DeeEEEeeep-Learning/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2024/04/30/arm-linux-mqtt/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.ericzhuestc.site/2023/04/06/%E6%A0%A1%E5%8F%B2%E9%A6%86%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/</loc>
     
-    <lastmod>2024-07-25</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -373,16 +49,7 @@
   <url>
     <loc>http://www.ericzhuestc.site/2023/04/06/%E6%98%8E%E6%9C%88%E6%B9%96/</loc>
     
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/04/05/%E5%85%B3%E4%BA%8EDNN%EF%BC%8CDP%EF%BC%8CEKF%EF%BC%8CFourier-Operator%EF%BC%8CKoopman-Operator/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -391,52 +58,16 @@
   <url>
     <loc>http://www.ericzhuestc.site/2023/04/16/%E5%85%B3%E4%BA%8E%E6%8C%AF%E8%8D%A1%E7%94%B5%E8%B7%AF/</loc>
     
-    <lastmod>2024-07-25</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/2024/03/16/2023-NUEDC/</loc>
+    <loc>http://www.ericzhuestc.site/2023/04/05/%E5%85%B3%E4%BA%8EDNN%EF%BC%8CDP%EF%BC%8CEKF%EF%BC%8CFourier-Operator%EF%BC%8CKoopman-Operator/</loc>
     
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/07/03/2023-SummerMiniCamp/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/03/27/03-Hi3861-Embedded-Competition/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/03/26/02-GA/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/2023/03/26/01_%E5%A4%A7%E5%88%9B/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -445,25 +76,376 @@
   <url>
     <loc>http://www.ericzhuestc.site/2023/03/27/%E3%80%8A%E4%BA%92%E8%81%94%E7%BD%91%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%BC%94%E5%8C%96%E3%80%8B%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2024-07-25</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/essay/index.html</loc>
+    <loc>http://www.ericzhuestc.site/2024/08/12/VLSI-Design/</loc>
     
-    <lastmod>2024-07-22</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/dailyPhoto/index.html</loc>
+    <loc>http://www.ericzhuestc.site/2024/10/01/Vivado-AXI-DMA/</loc>
     
-    <lastmod>2024-07-22</lastmod>
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/06/17/VIT-Need-Regs-ICLR-2024/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/04/17/Tricks-for-DeepSNN-Learning/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/09/28/TianfuAIC-01/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/06/17/STELLAR-HPCA-2024/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/09/08/Statistical-Learning-Theories-and-Applications/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/11/29/SpikingNN-on-trial/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/01/04/Spike-Driven-Transformer/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/05/27/Signals-Systems-Projects/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/03/28/OneOS-%E5%90%AF%E7%89%A9-v1-2-%E5%BC%80%E5%8F%91%E6%9D%BF%E7%9A%84Wifi%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/05/25/Notes-for-Comp-Network/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/08/04/NAS-1/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/12/06/My-First-Step-in-Bioinformatics/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/07/28/MonarchMatrices/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/10/13/MINT/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/12/02/Minkowski-Engine/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/09/09/Linux-Advanced-Programming/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/06/30/Graduation-Project-Design/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/06/29/FPGA-System-Design/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/04/30/FireFly-v1-FPGA-Simulation/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/09/08/Finite-Automaton-Theory/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/12/01/FilterNet/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/11/26/explainable-neuromorphic-computing/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/07/13/Event-based-Video-Frame-Interpolation/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/08/21/Essay-writing/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/07/23/ems-yolo-upgraded/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/11/22/Efficient-encoding-for-neuroscience/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/11/09/DeeEEEeeep-Learning/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/09/08/Combinatorics/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2025/09/09/Cloud-Computing/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/12/06/CLIP-papers/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/04/30/arm-linux-mqtt/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/11/24/ANN2SNN-Principles/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/07/03/2023-SummerMiniCamp/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2024/03/16/2023-NUEDC/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/03/27/03-Hi3861-Embedded-Competition/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/03/26/02-GA/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/2023/03/26/01_%E5%A4%A7%E5%88%9B/</loc>
+    
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -472,34 +454,7 @@
   <url>
     <loc>http://www.ericzhuestc.site/wordScenery/index.html</loc>
     
-    <lastmod>2024-07-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/album/index.html</loc>
-    
-    <lastmod>2024-07-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/fcircle/index.html</loc>
-    
-    <lastmod>2024-07-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/categories/index.html</loc>
-    
-    <lastmod>2024-07-22</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -508,7 +463,7 @@
   <url>
     <loc>http://www.ericzhuestc.site/tags/index.html</loc>
     
-    <lastmod>2024-07-22</lastmod>
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -517,7 +472,52 @@
   <url>
     <loc>http://www.ericzhuestc.site/link/index.html</loc>
     
-    <lastmod>2024-07-22</lastmod>
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/fcircle/index.html</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/essay/index.html</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/dailyPhoto/index.html</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/categories/index.html</loc>
+    
+    <lastmod>2025-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/album/index.html</loc>
+    
+    <lastmod>2025-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -617,7 +617,105 @@
   </url>
   
   <url>
+    <loc>http://www.ericzhuestc.site/tags/CLIP/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/MultiModal/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/Colima/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/Docker/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ericzhuestc.site/tags/Deep-Learning/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/DeepGEMM/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/CUDA/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/CUTLASS/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/Efficiency/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E7%A0%94%E7%A9%B6%E7%94%9F%E7%94%9F%E6%B6%AF/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -645,21 +743,14 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</loc>
+    <loc>http://www.ericzhuestc.site/tags/FPGA/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/CLIP/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/MultiModal/</loc>
+    <loc>http://www.ericzhuestc.site/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -673,14 +764,14 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/FPGA/</loc>
+    <loc>http://www.ericzhuestc.site/tags/%E6%9C%89%E9%99%90%E8%87%AA%E5%8A%A8%E6%9C%BA/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
+    <loc>http://www.ericzhuestc.site/tags/DNN-Acceleration/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -701,14 +792,14 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/DNN-Acceleration/</loc>
+    <loc>http://www.ericzhuestc.site/tags/Linux/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/%E9%AB%98%E6%95%88%E7%9F%A9%E9%98%B5%E8%AE%A1%E7%AE%97/</loc>
+    <loc>http://www.ericzhuestc.site/tags/%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -736,6 +827,13 @@
   </url>
   
   <url>
+    <loc>http://www.ericzhuestc.site/tags/%E9%AB%98%E6%95%88%E7%9F%A9%E9%98%B5%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ericzhuestc.site/tags/Bioinformatics/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -744,6 +842,13 @@
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/NAS/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -764,7 +869,14 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/SLTA/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -772,13 +884,6 @@
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/AI/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -834,14 +939,21 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/Linux/</loc>
+    <loc>http://www.ericzhuestc.site/tags/EMS-YOLO/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/EMS-YOLO/</loc>
+    <loc>http://www.ericzhuestc.site/tags/neuromorphic-computing/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -883,20 +995,6 @@
   </url>
   
   <url>
-    <loc>http://www.ericzhuestc.site/tags/neuromorphic-computing/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.ericzhuestc.site/tags/%E5%88%9B%E4%B8%9A/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -905,104 +1003,6 @@
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%A0%A1%E5%8F%B2/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/DeepGEMM/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/CUDA/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/CUTLASS/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/Efficiency/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E6%9C%89%E9%99%90%E8%87%AA%E5%8A%A8%E6%9C%BA/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/SLTA/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/%E7%A0%94%E7%A9%B6%E7%94%9F%E7%94%9F%E6%B6%AF/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/Colima/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/tags/Docker/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1032,6 +1032,13 @@
   </url>
   
   <url>
+    <loc>http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/</loc>
+    <lastmod>2025-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ericzhuestc.site/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -1040,13 +1047,6 @@
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E5%9B%BD%E5%86%85-%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE/</loc>
-    <lastmod>2025-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/</loc>
     <lastmod>2025-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
