@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2025-10-03T05:16:25.340Z</updated>
+  <updated>2025-10-19T03:47:06.265Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Rethinking trending paradigms of neural networks</title>
+    <link href="http://www.ericzhuestc.site/2025/10/19/Rethinking-trending-paradigms-of-neural-networks/"/>
+    <id>http://www.ericzhuestc.site/2025/10/19/Rethinking-trending-paradigms-of-neural-networks/</id>
+    <published>2025-10-19T03:40:13.000Z</published>
+    <updated>2025-10-19T03:47:06.265Z</updated>
+    
+    <content type="html"><![CDATA[<h1>写在前面</h1><p>近日博主发现2024、2025年，社区中涌现了一大批做Looping Network的工作（包括但不限于做数独、做迷宫、做路径规划。。。），一直想探索Looping在语言类任务的效果。最近又看到马里兰大学的研究，把Skipping和Looping结合到一起用MCST（蒙特卡洛搜索树）做最优的探索，居然在语言类的常规任务上取得了很好的提升（我之前自己做Looping在这些任务都是掉点的/可能是没做什么Continuous Training和别的）。于是想好好研究一下Looping背后的机制和原理，期望能带来某些insights。</p><h1>现代神经网络的三种信息处理范式</h1><p>｜形式化表述｜举例｜说明｜<br>｜--------｜----｜—｜<br>｜｜｜｜</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
+&lt;p&gt;近日博主发现2024、2025年，社区中涌现了一大批做Looping Network的工作（包括但不限于做数独、做迷宫、做路径规划。。。），一直想探索Looping在语言类任务的效果。最近又看到马里兰大学的研究，把Skipping和Looping</summary>
+      
+    
+    
+    
+    <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="深度学习" scheme="http://www.ericzhuestc.site/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="神经网络" scheme="http://www.ericzhuestc.site/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="Test-time Scaling" scheme="http://www.ericzhuestc.site/tags/Test-time-Scaling/"/>
+    
+  </entry>
   
   <entry>
     <title>Colima: as a substitute of Docker Desktop in MacOS</title>
@@ -605,30 +636,6 @@
     <category term="Vivado" scheme="http://www.ericzhuestc.site/tags/Vivado/"/>
     
     <category term="Zynq" scheme="http://www.ericzhuestc.site/tags/Zynq/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>天府人工智能会议一些好玩的研究</title>
-    <link href="http://www.ericzhuestc.site/2024/09/28/TianfuAIC-01/"/>
-    <id>http://www.ericzhuestc.site/2024/09/28/TianfuAIC-01/</id>
-    <published>2024-09-28T15:17:43.000Z</published>
-    <updated>2025-09-23T03:20:24.657Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="1-Drivers-of-Progress-in-AI-and-Silicon-Valley’s-Al-Innovation-by-Piero-Scaruffi">1. Drivers of Progress in AI and Silicon Valley’s Al Innovation by <em>Piero Scaruffi</em></h2><p>人工智能发展的驱动力是 <strong>1. 硬件；2. 数据集；3. 开源；4. 国际合作</strong></p><div class="row">    <embed src="piero2024.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="2-通用大模型赋能新质生产力-by-乔宇">2. 通用大模型赋能新质生产力 by <em>乔宇</em></h2><p>上海AI Lab 书生系列大模型：<a href="https://intern-ai.org.cn/home">intern-ai</a></p><div class="row">    <embed src="qiaoy2024.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="3">3.</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;1-Drivers-of-Progress-in-AI-and-Silicon-Valley’s-Al-Innovation-by-Piero-Scaruffi&quot;&gt;1. Drivers of Progress in AI and Silicon Valley’s </summary>
-      
-    
-    
-    
-    <category term="国内/国际会议" scheme="http://www.ericzhuestc.site/categories/%E5%9B%BD%E5%86%85-%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE/"/>
-    
-    
-    <category term="AI" scheme="http://www.ericzhuestc.site/tags/AI/"/>
     
   </entry>
   
