@@ -1,3 +1,4 @@
+http://www.ericzhuestc.site/2025/09/08/Combinatorics/
 http://www.ericzhuestc.site/2025/09/24/Documentation-of-the-first-paper-revision/
 http://www.ericzhuestc.site/2025/10/24/Johnson-Lindenstrauss-%E5%8F%98%E6%8D%A2/
 http://www.ericzhuestc.site/2025/10/19/Rethinking-trending-paradigms-of-neural-networks/
@@ -40,7 +41,6 @@ http://www.ericzhuestc.site/2024/07/23/ems-yolo-upgraded/
 http://www.ericzhuestc.site/2024/11/22/Efficient-encoding-for-neuroscience/
 http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/
 http://www.ericzhuestc.site/2023/11/09/DeeEEEeeep-Learning/
-http://www.ericzhuestc.site/2025/09/08/Combinatorics/
 http://www.ericzhuestc.site/2025/09/09/Cloud-Computing/
 http://www.ericzhuestc.site/2024/12/06/CLIP-papers/
 http://www.ericzhuestc.site/2024/04/30/arm-linux-mqtt/
