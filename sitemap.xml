@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ericzhuestc.site/2025/11/21/Distributed-Systems/</loc>
+    
+    <lastmod>2025-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ericzhuestc.site/2025/09/08/Combinatorics/</loc>
     
     <lastmod>2025-11-19</lastmod>
@@ -544,7 +553,7 @@
 
   <url>
     <loc>http://www.ericzhuestc.site/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -552,497 +561,504 @@
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E5%A4%A7%E5%88%9B/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%B5%B7%E6%80%9D/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%A4%A7%E8%B5%9B/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/NUEDC/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%B2%BE%E5%AF%86%E4%BB%AA%E5%99%A8%E4%BB%AA%E8%A1%A8/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%B2%BE%E5%AF%86%E6%B5%8B%E9%87%8F/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/SNN/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/ANN2SNN/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Neuroscience/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/object-Object/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/CLIP/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/MultiModal/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E5%89%8D%E6%B2%BF%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Colima/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Docker/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Deep-Learning/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/DeepGEMM/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/CUDA/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/CUTLASS/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Efficiency/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%A0%94%E7%A9%B6%E7%94%9F%E7%94%9F%E6%B6%AF/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Encoding/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/VFI/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Event-based-CV/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/FPGA/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%9C%89%E9%99%90%E8%87%AA%E5%8A%A8%E6%9C%BA/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/DNN-Acceleration/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Linux/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%A8%A1%E5%9E%8B%E9%87%8F%E5%8C%96/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%A8%80%E7%96%8F%E5%8D%B7%E7%A7%AF/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Minkowski-Engine/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E9%AB%98%E6%95%88%E7%9F%A9%E9%98%B5%E8%AE%A1%E7%AE%97/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Bioinformatics/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/NAS/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/OneOS/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/ESP8266/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/SLTA/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/AI/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/ViT/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/VLSI/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Vivado/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Zynq/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/MQTT/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/ARM/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/ZYNQ/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/EMS-YOLO/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/neuromorphic-computing/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/DNN/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/DP/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/EKF/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Fourier-Operator/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Koopman-Operator/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E5%88%9B%E4%B8%9A/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%A0%A1%E5%8F%B2/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/tags/Test-time-Scaling/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericzhuestc.site/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1051,42 +1067,42 @@
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E9%A1%B9%E7%9B%AE%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E6%9D%82%E9%A1%B9/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ericzhuestc.site/categories/%E5%9B%BD%E5%86%85-%E5%9B%BD%E9%99%85%E4%BC%9A%E8%AE%AE/</loc>
-    <lastmod>2025-11-19</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2025-10-24T08:48:45.423Z</updated>
+  <updated>2025-11-21T16:25:48.220Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Distributed Systems</title>
+    <link href="http://www.ericzhuestc.site/2025/11/21/Distributed-Systems/"/>
+    <id>http://www.ericzhuestc.site/2025/11/21/Distributed-Systems/</id>
+    <published>2025-11-21T14:04:28.000Z</published>
+    <updated>2025-11-21T16:25:48.220Z</updated>
+    
+    <content type="html"><![CDATA[<h1>写在前面</h1><ul><li>任课教师：余盛季</li><li>参考教材：《分布式系统概念与设计》，计算机科学丛书（原书第五版），机械工业出版社</li></ul><h1>知识点总结</h1><h2 id="第一章（对应课本第一章：分布式系统的特征）">第一章（对应课本第一章：分布式系统的特征）</h2><ol><li>分布式系统的构建原因</li><li>分布式系统的定义、特征</li><li>分布式系统举例</li><li>分布式系统面临的挑战</li></ol><h2 id="第二章（对应课本第二章：系统模型）">第二章（对应课本第二章：系统模型）</h2><ol><li>分布式系统体系结构模型<br>1.1 C/S、P2P两种不同结构<br>1.2 分层模型、层次化模型</li><li>交互、故障、安全三种基础模型</li><li>同步、异步两种不同的分布式系统</li></ol><h2 id="第三章（对应课本第十四章：时间和全局状态）">第三章（对应课本第十四章：时间和全局状态）</h2><ol><li>事件、进程历史概念</li><li>时钟漂移及产生原因</li><li>内部、外部物理时钟同步</li><li>时钟正确性含义</li><li>物理时钟同步的三种方法</li><li>逻辑时间、逻辑时钟</li><li>发生在先关系、并发关系及分布式系统中的事件排序</li><li>Lamport时钟、全序逻辑时钟及向量时钟</li><li>割集、割集的一致性、一致的全局状态概念</li><li>Chandy-Lamport快照算法</li><li>分布式调试（全局状态谓词的判断）</li></ol><h2 id="第四章（对应课本第十五章：协调和协定）">第四章（对应课本第十五章：协调和协定）</h2><ol><li>分布式互斥的含义</li><li>解决分布式互斥的方法：中央服务器、环、组播+逻辑时钟、Maekawa投票算法</li><li>分布式选举含义</li><li>解决分布式选举的方法：环、霸道</li><li>基本组播、可靠组播的区别</li><li>实现可靠组播的方法</li><li>共识、交互一致性及拜占庭将军问题含义</li><li>三个、四个拜占庭将军问题</li><li>paxos算法</li></ol><h2 id="第五章（对应课本第十六章：事务和并发控制）">第五章（对应课本第十六章：事务和并发控制）</h2><ol><li>事务的ACID特性</li><li>串行等价性的概念、充要条件及应用</li><li>事务的三种基本控制方法：锁、乐观方法、时间戳，它们的原理、实现、比较</li></ol><h2 id="第六章（对应课本第十七章：分布式事务）">第六章（对应课本第十七章：分布式事务）</h2><ol><li>分布式事务概念</li><li>原子提交协议的概念</li><li>单阶段原子提交协议原理及缺陷</li><li>两阶段提交协议（设计动机、基本思想、基本操作、过程描述、通信、性能、缺陷）</li><li>分布式事务的并发控制（锁方法）</li><li>分布式死锁产生原因及检测方法（集中、分布式）</li><li>两阶段提交协议的恢复</li></ol><h2 id="第七章（对应课本第十八章：复制）">第七章（对应课本第十八章：复制）</h2><ol><li>复制的概念、动机、基本要求</li><li>四种一致性（可线性化、顺序一致性、因果一致性、最终一致性）</li><li>复制的系统模型: 主动复制、被动复制</li><li>单拷贝串行化的概念、“读一个/写所有”方案原理、适用条件及本地验证方法</li><li>闲聊系统的两个保证、体系结构（含关键数据结构及作用）、基本操作</li></ol><h2 id="第八章（对应课本第十二章：分布式文件系统）">第八章（对应课本第十二章：分布式文件系统）</h2><ol><li>分布式文件系统的需求</li><li>文件服务体系结构，即三个组件、作用、接口，设计理念</li><li>NFS体系结构、NFS服务器操作、路径解析、缓存机制</li><li>AFS应用场景、设计理念、缓存机制、一致性</li></ol><h2 id="第九章（对应课本第二十一章：分布式系统设计：Google实例研究-21-5章节）">第九章（对应课本第二十一章：分布式系统设计：Google实例研究 21.5章节）</h2><ol><li>GFS设计动机、设计思想、体系结构</li><li>Master不存在性能瓶颈原因</li><li>读、写、添加操作流程</li><li>写操作一致（consistent）、确定（defined）含义及分析</li><li>添加操作一致（consistent）、确定（defined）含义及分析</li></ol><h2 id="第十章">第十章</h2><ol><li>一致性哈希算法</li><li>分布式哈希表主要思想</li><li>Chord原理、Hash表分布规则、基于Finger Table的路由技术</li></ol><h1>考试题型</h1><p>选择：20分<br>判断题：20分<br>其他类型合计60分（简答、分析、计算等）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;任课教师：余盛季&lt;/li&gt;
+&lt;li&gt;参考教材：《分布式系统概念与设计》，计算机科学丛书（原书第五版），机械工业出版社&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;知识点总结&lt;/h1&gt;
+&lt;h2 id=&quot;第一章（对应课本第一章：分布式系统的特征）&quot;&gt;第</summary>
+      
+    
+    
+    
+    <category term="研究生课程" scheme="http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="分布式系统" scheme="http://www.ericzhuestc.site/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>Johnson-Lindenstrauss 变换</title>
@@ -592,35 +624,6 @@
     <category term="毕业设计" scheme="http://www.ericzhuestc.site/tags/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
     
     <category term="模型量化" scheme="http://www.ericzhuestc.site/tags/%E6%A8%A1%E5%9E%8B%E9%87%8F%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vivado AXI Datamover</title>
-    <link href="http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/"/>
-    <id>http://www.ericzhuestc.site/2024/10/05/Vivado-AXI-Datamover/</id>
-    <published>2024-10-05T12:17:11.000Z</published>
-    <updated>2025-09-23T03:20:25.677Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="参考资料">参考资料</h2><ol><li><a href="https://docs.amd.com/r/en-US/pg022_axi_datamover">Xilinx User Guide: pg022_axi_datamover</a></li></ol><h2 id="AXI-Datamover-IP-概述">AXI Datamover IP 概述</h2><p>（这次主播决定从官方手册出发，仔细研读手册内容从而达到能够独立开发该IP的目的。）</p><p>AXI DataMover和AXI DMA的功能非常相似，都是为在<code>AXI4 memory-mapped（AXI4存储器映射）</code>和<code>AXI4-Stream domains（AXI4流数据）</code>之间提供高吞吐的数据传输。该IP核的MM2S(即Memory-map to Stream)和S2MM(即Stream to Memory-map)通道独立运作，整体通信是<strong>全双工</strong>的。</p><blockquote><p>**内存映射（Memory Mapping）**是一种将文件内容映射到进程的虚拟地址空间的技术。在这种机制下，文件可以被视为内存的一部分，从而允许程序直接对这部分内存进行读写操作，而无需传统的文件 I/O 调用。这种方法不仅简化了文件操作，还提高了处理效率。支持4KB的边界保护以及自动拆解太长的burst</p></blockquote><blockquote><p>AXI Stream: 一种高速流传输的AXI总线协议，详情见ARM官方手册：<a href="https://developer.arm.com/documentation/ihi0051/b/?lang=en">AMBA AXI-Stream Protocol Specification</a></p></blockquote><p>首先要头脑清醒：MM2S是负责读Memory-map的，S2MM是负责写Memory-map。</p><h2 id="特性总结">特性总结</h2><h3 id="和AXI4，AXI4-Stream接口完全兼容">和AXI4，AXI4-Stream接口完全兼容</h3><h3 id="AXI4-Stream-数据宽度必须小于或等于相应通道的-AXI4-数据宽度。">AXI4-Stream 数据宽度必须小于或等于相应通道的 AXI4 数据宽度。</h3><h3 id="最大的Memory-map突发传输长度">最大的Memory map突发传输长度</h3><p>AXI MM2S Memory Map接口可以配置突发传输的粒度/大小。例如，如果突发长度设置为 16，则内存映射接口上的最大突发为 16 个数据节拍。</p><blockquote><p>在AXI总线中，ARLEN、ARSIZE和BURST LENGTH是三个关键参数，它们之间有着密切的关系，共同决定了突发传输的特性。参考<a href="https://blog.csdn.net/weixin_41230430/article/details/141338346">此博客</a>，但该IP中用户不可操作ARLEN、ARSIZE，只能配置BURST LENGTH。</p></blockquote><h3 id="支持地址未对齐的传输">支持地址未对齐的传输</h3><p>可选择支持数据重新对齐引擎 （Data Realignment Engine，DRE）</p><h3 id="支持异步时钟">支持异步时钟</h3><h3 id="可选存储和转发功能">可选存储和转发功能</h3><h3 id="支持-S2MM-通道的可选不确定-BTT（Byte-to-Transfer）-模式">支持 S2MM 通道的可选不确定 BTT（Byte to Transfer） 模式</h3><h2 id="性能">性能</h2><p>此处主要讲IP的时钟配置，Zynq-7000系列均封装的是Artix-7的PL，所以依照User Guide，我们可以得知：</p><table><thead><tr><th>Speed Grade</th><th>Clock Frequency(MHz)</th></tr></thead><tbody><tr><td>-1</td><td>AXI4: 150, AXI4-Stream: 150</td></tr><tr><td>-2</td><td>AXI4: 180, AXI4-Stream: 180</td></tr><tr><td>-3</td><td>AXI4: 200, AXI4-Stream: 200</td></tr></tbody></table><h2 id="利用IP核进行设计">利用IP核进行设计</h2><h3 id="典型应用">典型应用</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;参考资料&quot;&gt;参考资料&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.amd.com/r/en-US/pg022_axi_datamover&quot;&gt;Xilinx User Guide: pg022_axi_datamover&lt;/a&gt;&lt;/li&gt;
-</summary>
-      
-    
-    
-    
-    <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
-    
-    
-    <category term="Vivado" scheme="http://www.ericzhuestc.site/tags/Vivado/"/>
-    
-    <category term="Zynq" scheme="http://www.ericzhuestc.site/tags/Zynq/"/>
     
   </entry>
   
