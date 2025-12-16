@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2025-12-16T01:24:38.162Z</updated>
+  <updated>2025-12-16T01:47:42.377Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.ericzhuestc.site/2025/12/16/Math4CS/"/>
     <id>http://www.ericzhuestc.site/2025/12/16/Math4CS/</id>
     <published>2025-12-16T01:23:02.000Z</published>
-    <updated>2025-12-16T01:24:38.162Z</updated>
+    <updated>2025-12-16T01:47:42.377Z</updated>
     
-    <content type="html"><![CDATA[<h1>写在前面</h1><ul><li>任课教师：许超，Bakhadyr Khoussainov</li><li>参考教材：MIT 6.042J 教材</li></ul><h1>知识点总结</h1>]]></content>
+    <content type="html"><![CDATA[<h1>写在前面</h1><ul><li>任课教师：许超，Bakhadyr Khoussainov</li><li>参考教材：MIT 6.042J 教材</li></ul><h1>知识点总结</h1><p>好心的许老师在课程群里发了：submodular function, matroid, matroid intersection, base, graph coloring, independent set, clique, binary matrix multiplication, shortest path</p><p><img src="https://raw.githubusercontent.com/EricZhang1412/PicGoStorage/master/img/20251216094652021.png" alt="alt text"></p><p>。。。但真的难度很高（我都没听过啊啊啊啊）</p>]]></content>
     
     
       
@@ -34,7 +34,7 @@
 &lt;li&gt;参考教材：MIT 6.042J 教材&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;知识点总结&lt;/h1&gt;
-</summary>
+&lt;p&gt;好心的许老师在课程群里发了：submodular functi</summary>
       
     
     
