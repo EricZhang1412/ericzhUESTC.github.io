@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2025-11-25T08:16:15.015Z</updated>
+  <updated>2025-12-16T01:24:38.162Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Math4CS</title>
+    <link href="http://www.ericzhuestc.site/2025/12/16/Math4CS/"/>
+    <id>http://www.ericzhuestc.site/2025/12/16/Math4CS/</id>
+    <published>2025-12-16T01:23:02.000Z</published>
+    <updated>2025-12-16T01:24:38.162Z</updated>
+    
+    <content type="html"><![CDATA[<h1>写在前面</h1><ul><li>任课教师：许超，Bakhadyr Khoussainov</li><li>参考教材：MIT 6.042J 教材</li></ul><h1>知识点总结</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;任课教师：许超，Bakhadyr Khoussainov&lt;/li&gt;
+&lt;li&gt;参考教材：MIT 6.042J 教材&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;知识点总结&lt;/h1&gt;
+</summary>
+      
+    
+    
+    
+    <category term="研究生课程" scheme="http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Math4CS" scheme="http://www.ericzhuestc.site/tags/Math4CS/"/>
+    
+  </entry>
   
   <entry>
     <title>Distributed Systems (分布式系统)</title>
@@ -591,39 +623,6 @@
     <category term="Neuroscience" scheme="http://www.ericzhuestc.site/tags/Neuroscience/"/>
     
     <category term="Encoding" scheme="http://www.ericzhuestc.site/tags/Encoding/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>毕业设计（三）文献调研：MINT-SNN</title>
-    <link href="http://www.ericzhuestc.site/2024/10/13/MINT/"/>
-    <id>http://www.ericzhuestc.site/2024/10/13/MINT/</id>
-    <published>2024-10-13T03:10:21.000Z</published>
-    <updated>2025-09-23T03:19:36.501Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Abstract">Abstract</h2><p>本文创新点：</p><ol><li>将存储密集型的膜电位量化到了极低2bit精度。</li><li>在权重和膜电位数据的均匀量化中共享缩放因子。</li><li>效果：2-bit的VGG-SNN-16：90.6%（CIFAR10），memory footprint减少93.8%，computational energy减少90%。</li></ol><h2 id="Introduction">Introduction</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;本文创新点：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;将存储密集型的膜电位量化到了极低2bit精度。&lt;/li&gt;
-&lt;li&gt;在权重和膜电位数据的均匀量化中共享缩放因子。&lt;/li&gt;
-&lt;li&gt;效果：2-bit的VGG-SNN-16：</summary>
-      
-    
-    
-    
-    <category term="毕业设计" scheme="http://www.ericzhuestc.site/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-    <category term="SNN" scheme="http://www.ericzhuestc.site/tags/SNN/"/>
-    
-    <category term="毕业设计" scheme="http://www.ericzhuestc.site/tags/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="模型量化" scheme="http://www.ericzhuestc.site/tags/%E6%A8%A1%E5%9E%8B%E9%87%8F%E5%8C%96/"/>
     
   </entry>
   
