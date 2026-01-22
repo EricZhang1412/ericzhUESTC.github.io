@@ -6,7 +6,7 @@
   <link href="http://www.ericzhuestc.site/atom.xml" rel="self"/>
   
   <link href="http://www.ericzhuestc.site/"/>
-  <updated>2026-01-22T00:56:58.098Z</updated>
+  <updated>2026-01-22T01:35:49.652Z</updated>
   <id>http://www.ericzhuestc.site/</id>
   
   <author>
@@ -21,8 +21,16 @@
     <link href="http://www.ericzhuestc.site/2026/01/22/Few-Spikes-Neuron/"/>
     <id>http://www.ericzhuestc.site/2026/01/22/Few-Spikes-Neuron/</id>
     <published>2026-01-22T00:54:19.000Z</published>
-    <updated>2026-01-22T00:56:58.098Z</updated>
+    <updated>2026-01-22T01:35:49.652Z</updated>
     
+    <content type="html"><![CDATA[<h1>0. 写在前面</h1><p>其实一年前就读过了Stockl和Maass的FS神经元了，要义是用一个极简的神经元模型去拟合传统神经网络中的激活函数，也是给ANN-SNN Conversion提供了一个新思路。组内师兄师姐基于此做了一篇扩展FS多基编码用于SNN Converesion的<a href="https://arxiv.org/pdf/2508.07710?">工作</a>。但FS有关于生物学启发的部分当时并没有细致研究过。所以，通过这篇Blog，希望能够对这一部分理解更透。</p><h1>1. FS Neuron的优越性</h1><p>摘要部分有这样一句：</p><blockquote><p>…, so that it not only matters for information transmission how many spikes a neuron emits, but also when it emits those spikes. <br>…, 因此，对于信息传递而言，神经元发出多少脉冲固然重要，但何时发出这些脉冲也同样重要。</p></blockquote><p>这句话说明了，相较于其他常用的rate coding/direct coding策略，神经元【何时】发出脉冲的信息也被考虑了进去。也正因如此，FS神经元能以平均下来大约2个脉冲就可完成conversion。</p><p>同时，正文最后论述了与其他的时间编码的方法的区别：</p><blockquote><p>Most previously proposed forms of temporal coding, … , have turned out to be diﬃcult to implement eﬃciently in neuromorphic hardware because they require to transmit fine time-diﬀerences between spikes to downstream neurons. <br>先前提出的大多数时间编码形式，……，都难以在神经形态硬件中有效实现，因为它们需要将脉冲之间细微的时间差传输到下游神经元。</p></blockquote><p>即，整个网络中每个神经元发的脉冲的绝对时间/相对时间差都要传递到下一个时间步/下一层。但这种时间粒度有多细都不好说。</p><p>对于从<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>到<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span>的整数，FS-Conversion仅需要<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>log</mtext><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\text{log}(N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">log</span></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mclose">)</span></span></span></span>个值，配合最多<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>log</mtext><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\text{log}(N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">log</span></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mclose">)</span></span></span></span>个脉冲传递。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;0. 写在前面&lt;/h1&gt;
+&lt;p&gt;其实一年前就读过了Stockl和Maass的FS神经元了，要义是用一个极简的神经元模型去拟合传统神经网络中的激活函数，也是给ANN-SNN Conversion提供了一个新思路。组内师兄师姐基于此做了一篇扩展FS多基编码用于SNN Conv</summary>
+      
     
     
     
