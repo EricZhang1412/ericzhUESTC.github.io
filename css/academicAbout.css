@@ -929,3 +929,24 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Reduce repeated visual weight in the profile hero. */
+.academic-hero h1 {
+  max-width: 980px;
+  font-size: clamp(2.2rem, 4.6vw, 4.05rem);
+  line-height: 0.98;
+}
+
+.academic-hero__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.academic-hero__card .academic-avatar {
+  margin-bottom: 24px;
+}
+
+.academic-hero__card .academic-card-meta {
+  margin-top: 0;
+}
