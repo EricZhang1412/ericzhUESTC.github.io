@@ -9285,75 +9285,207 @@ M_t&amp;=\prod_{j=1}^{t}(1-\alpha_j)M_0+\sum_{k=1}^{t}S_k \\
   <entry>
     <title>About</title>
     <url>/about/index.html</url>
-    <content><![CDATA[<h2 id="Research-Snapshot">Research Snapshot</h2>
-<p>My interests sit at the intersection of <strong>brain-inspired intelligence</strong>, <strong>efficient neural computation</strong>, and <strong>systems for AI</strong>. I am especially interested in how event-driven models such as SNNs can be trained, compressed, interpreted, and mapped onto practical hardware/software systems.</p>
-<p>I use this blog as an open research notebook: paper reading, course notes, debugging records, and project retrospectives are written in public so that ideas can accumulate over time.</p>
-<h2 id="News">News</h2>
-<ul>
-<li><strong>2026.03</strong> Updated course notes on algorithms for game theory.</li>
-<li><strong>2026.01</strong> Started a note series on continual learning and memory-inspired neural architectures.</li>
-<li><strong>2025.11</strong> Organized distributed systems notes for graduate coursework.</li>
-<li><strong>2025.09</strong> Began collecting graduate-course notes on statistical learning theory, automata, cloud computing, and Linux advanced programming.</li>
-<li><strong>2024.11</strong> Wrote a focused reading note on ANN-to-SNN conversion principles.</li>
-</ul>
-<h2 id="Selected-Research-Notes">Selected Research Notes</h2>
-<div class="academic-paper-list">
-  <article class="academic-paper">
-    <div class="academic-paper-meta">Research Note · SNN · 2026</div>
-    <h3>Rereading Few-Spikes Neuron</h3>
-    <p>A compact rereading note on early efficient spiking-neuron ideas and their implications for modern neuromorphic computing.</p>
-    <p class="academic-paper-links"><a href="/2026/01/22/Few-Spikes-Neuron/">Read note</a></p>
+    <content><![CDATA[<h2 id="Education">Education</h2>
+<div class="cv-entry-list">
+  <article class="cv-entry">
+    <div class="cv-entry-top">
+      <h3>University of Electronic Science and Technology of China</h3>
+      <span>Chengdu, Sichuan | 2021.9 - 2025.6</span>
+    </div>
+    <p><strong>Bachelor of Engineering</strong>, majored in <em>Engineering of Internet-of-Things</em>, <strong>GPA: 3.87/4</strong></p>
+    <p>Department of Internet-of-Things, School of Information and Communication Engineering</p>
+    <p><strong>English Language Level:</strong> CET-4 637 · CET-6 568 · IELTS 7.0</p>
   </article>
-  <article class="academic-paper">
-    <div class="academic-paper-meta">Research Note · Brain-inspired AI · 2026</div>
-    <h3>Continual Learning Like the Human Brain</h3>
-    <p>A living note series on memory, test-time learning, and continual adaptation in neural systems.</p>
-    <p class="academic-paper-links"><a href="/2026/01/25/Continual-Learning-like-human-brain/">Read note</a></p>
+  <article class="cv-entry">
+    <div class="cv-entry-top">
+      <h3>University of Electronic Science and Technology of China</h3>
+      <span>Chengdu, Sichuan | 2025.9 - Present</span>
+    </div>
+    <p>Major in <strong>Computer Science and Technology</strong>, School of Computer Science and Engineering</p>
+    <p>Ph.D. Student, ranked <strong>3/14</strong> in major-based recommendation interview.</p>
   </article>
-  <article class="academic-paper">
-    <div class="academic-paper-meta">Paper Reading · ANN2SNN · 2024</div>
-    <h3>ANN2SNN Principles</h3>
-    <p>Reading notes and slides around high-performance conversion from artificial neural networks to spiking neural networks.</p>
-    <p class="academic-paper-links"><a href="/2024/11/24/ANN2SNN-Principles/">Read note</a></p>
+  <article class="cv-entry">
+    <div class="cv-entry-top">
+      <h3>Shenzhen Loop Area Institute</h3>
+      <span>Shenzhen, Guangdong | 2026.6 - Present</span>
+    </div>
+    <p>Shenzhen Recommendation Program Academic Elites (First Batch)</p>
   </article>
-  <article class="academic-paper">
-    <div class="academic-paper-meta">Project Note · FPGA · 2024</div>
-    <h3>STELLAR / HPCA 2024 Reading Note</h3>
-    <p>A systems-oriented note connecting SNN acceleration, FPGA design, and computer architecture.</p>
-    <p class="academic-paper-links"><a href="/2024/06/17/STELLAR-HPCA-2024/">Read note</a></p>
-  </article>
-</div>
-<h2 id="Projects-Engineering-Notes">Projects &amp; Engineering Notes</h2>
-<div class="academic-project-grid">
-  <a class="academic-project" href="/2024/03/16/2023-NUEDC/">
-    <span>Embedded Systems</span>
-    <strong>2023 NUEDC</strong>
-    <em>Precision measurement, instrumentation, and competition retrospective.</em>
-  </a>
-  <a class="academic-project" href="/2024/06/29/FPGA-System-Design/">
-    <span>FPGA</span>
-    <strong>FPGA System Design</strong>
-    <em>Image-sensor pipeline and hardware-system notes.</em>
-  </a>
-  <a class="academic-project" href="/2024/10/05/Vivado-AXI-Datamover/">
-    <span>SoC</span>
-    <strong>Vivado AXI Datamover</strong>
-    <em>AXI data movement notes on Zynq/Vivado systems.</em>
-  </a>
-  <a class="academic-project" href="/2025/04/16/DeepGEMM-Beginner/">
-    <span>GPU Kernels</span>
-    <strong>DeepGEMM Beginner</strong>
-    <em>CUDA/CUTLASS-oriented notes on efficient matrix computation.</em>
-  </a>
 </div>
 <h2 id="Publications">Publications</h2>
-<p>For a current and verifiable publication/citation record, please refer to my <a href="https://scholar.google.com.hk/citations?user=c8Qww6YAAAAJ">Google Scholar profile</a>. I will keep selected public papers and preprints here as the list becomes stable.</p>
-<h2 id="Open-To">Open To</h2>
-<ul>
-<li>Research discussions around SNNs, neuromorphic computing, efficient AI, and AI systems.</li>
-<li>Collaboration on paper reading, reproducibility, and open-source engineering notes.</li>
-<li>Academic exchange with students and researchers who like building things from first principles.</li>
-</ul>
+<div class="cv-publication-list">
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Quantized Spike-driven Transformer</h3>
+      <p class="cv-authors">Xuerui Qiu*, Malu Zhang<sup>✉</sup>, <strong>Jieyuan Zhang</strong>*, Wenjie Wei, Honglin Cao, Junsheng Guo, Rui-Jie Zhu, Yimeng Shan, Yang Yang, Haizhou Li</p>
+      <p class="cv-links"><a href="https://openreview.net/pdf?id=5J9B7Sb8rO" target="_blank" rel="noopener">OpenReview PDF</a><a href="https://github.com/bollossom/QSD-Transformer" target="_blank" rel="noopener">Code</a></p>
+    </div>
+    <div class="cv-venue">ICLR 2025</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Unveiling the Spatial-temporal Effective Receptive Fields of Spiking Neural Networks</h3>
+      <p class="cv-authors"><strong>Jieyuan Zhang</strong>, Xiaolong Zhou, Wenjie Wei, Hanwen Liu, Qian Sun, Shuai Wang, Malu Zhang<sup>✉</sup>, Yang Yang, Haizhou Li</p>
+    </div>
+    <div class="cv-venue">NeurIPS 2025</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Efficient 3D Recognition with Event-driven Spike Sparse Convolution</h3>
+      <p class="cv-authors">Xuerui Qiu*, Man Yao*, <strong>Jieyuan Zhang</strong>, Yuhong Chou, Ning Qiao, Shibo Zhou, Bo Xu, Guoqi Li<sup>✉</sup></p>
+      <p class="cv-links"><a href="https://arxiv.org/pdf/2412.07360" target="_blank" rel="noopener">ArXiv</a><a href="https://github.com/bollossom/E-3DSNN/" target="_blank" rel="noopener">Code</a></p>
+    </div>
+    <div class="cv-venue">AAAI 2025</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>S<sup>2</sup>NN: Sub-bit Spiking Neural Networks</h3>
+      <p class="cv-authors">Wenjie Wei, Malu Zhang<sup>✉</sup>, <strong>Jieyuan Zhang</strong>, Ammar Belatreche, Yimeng Shan, Hanwen Liu, Honglin Cao, Yang Yang</p>
+      <p class="cv-links"><a href="https://arxiv.org/pdf/2509.24266" target="_blank" rel="noopener">ArXiv</a></p>
+    </div>
+    <div class="cv-venue">NeurIPS 2025</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>FPF-SNNs: Floating-Point-Free Spiking Neural Networks</h3>
+      <p class="cv-authors">Hanwen Liu, Kexin Shi, Wenjie Wei, <strong>Jieyuan Zhang</strong>, Wenyu Chen, Malu Zhang<sup>✉</sup>, Yang Yang</p>
+    </div>
+    <div class="cv-venue">IEEE TETCI</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Temporal-coded Spiking Transformer</h3>
+      <p class="cv-authors">Qian Sun, Chengzhuo Lu, Wenyu Chen, Wenjie Wei, Jingya Wang, <strong>Jieyuan Zhang</strong>, Xiaoli Liu, Yalan Ye, Yang Yang, Malu Zhang<sup>✉</sup></p>
+      <p class="cv-links"><a href="https://dl.acm.org/doi/abs/10.1145/3746027.3754545" target="_blank" rel="noopener">ACM DL</a></p>
+    </div>
+    <div class="cv-venue">ACMMM 2025</div>
+  </article>
+  <article class="cv-publication cv-featured">
+    <div class="cv-pub-main">
+      <h3>Bipolar Self-attention for Spiking Transformers</h3>
+      <p class="cv-authors">Shuai Wang, Malu Zhang<sup>✉</sup>, Jingya Wang, Dehao Zhang, Yimeng Shan, <strong>Jieyuan Zhang</strong>, Yichen Xiao, Honglin Cao, Haonan Zhang, Zeyu Ma, Yang Yang, Haizhou Li</p>
+      <p class="cv-links"><a href="https://openreview.net/pdf?id=nG45z7lJ7D" target="_blank" rel="noopener">OpenReview PDF</a></p>
+    </div>
+    <div class="cv-venue">NeurIPS 2025 <span class="cv-badge">Spotlight</span></div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>QP-SNN: Quantized and Pruned Spiking Neural Networks</h3>
+      <p class="cv-authors">Wenjie Wei, Malu Zhang<sup>✉</sup>, Zijian Zhou, Ammar Belatreche, Yimeng Shan, Yu Liang, Honglin Cao, <strong>Jieyuan Zhang</strong>, Yang Yang</p>
+      <p class="cv-links"><a href="https://arxiv.org/pdf/2502.05905" target="_blank" rel="noopener">ArXiv</a></p>
+    </div>
+    <div class="cv-venue">ICLR 2025</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Training-Free ANN-to-SNN Conversion for High-Performance Spiking Transformer</h3>
+      <p class="cv-authors">Jingya Wang, Xin Deng, Wenjie Wei, Dehao Zhang, Shuai Wang, Qian Sun, <strong>Jieyuan Zhang</strong>, Hanwen Liu, Ning Xie, Malu Zhang<sup>✉</sup></p>
+      <p class="cv-links"><a href="https://arxiv.org/pdf/2508.07710" target="_blank" rel="noopener">ArXiv</a></p>
+    </div>
+    <div class="cv-venue">AAAI 2026</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>HardF-SNN: Hardware-Friendly Quantization for Spiking Neural Networks with Efficient Integer-Arithmetic-Only Inference</h3>
+      <p class="cv-authors">Hanwen Liu, Kexin Shi, <strong>Jieyuan Zhang</strong>, Yimeng Shan, Jibin Wu, Wenyu Chen, Malu Zhang<sup>✉</sup></p>
+      <p class="cv-links"><a href="https://openreview.net/forum?id=l2XmQhCo2B&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DAAAI.org%2F2026%2FConference%2FAuthors%23your-submissions)" target="_blank" rel="noopener">OpenReview PDF</a></p>
+    </div>
+    <div class="cv-venue">AAAI 2026</div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Neural Dynamics Self-Attention for Spiking Transformers</h3>
+      <p class="cv-authors">Dehao Zhang, Fukai Guo, Shuai Wang, Jingya Wang, <strong>Jieyuan Zhang</strong>, Yimeng Shan, Malu Zhang<sup>✉</sup>, Yang Yang, Haizhou Li</p>
+      <p class="cv-links"><a href="https://openreview.net/pdf?id=jJedqisfOt" target="_blank" rel="noopener">OpenReview PDF</a></p>
+    </div>
+    <div class="cv-venue">ICLR 2026</div>
+  </article>
+  <article class="cv-publication cv-featured">
+    <div class="cv-pub-main">
+      <h3>SDTrack: A Baseline for Event-based Tracking via Spiking Neural Networks</h3>
+      <p class="cv-authors">Yimeng Shan, Zhenbang Ren, Haodi Wu, Wenjie Wei, Rui-Jie Zhu, Shuai Wang, Dehao Zhang, Yichen Xiao, <strong>Jieyuan Zhang</strong>, Kexin Shi, Jingzhinan Wang, Jason K. Eshraghian, Haicheng Qu, Jiqing Zhang<sup>✉</sup>, Malu Zhang<sup>✉</sup>, Yang Yang</p>
+      <p class="cv-links"><a href="https://arxiv.org/pdf/2503.08703" target="_blank" rel="noopener">ArXiv</a></p>
+    </div>
+    <div class="cv-venue">CVPR 2026 <span class="cv-badge">Oral</span></div>
+  </article>
+  <article class="cv-publication">
+    <div class="cv-pub-main">
+      <h3>Temporal Interaction in Spiking Transformers with Multi-Delay Mixer</h3>
+      <p class="cv-authors">Kexin Shi, Hanwen Liu, Zeyang Song, Yang Liu, <strong>Jieyuan Zhang</strong>, Shuai Wang, Jibin Wu, Malu Zhang<sup>✉</sup>, Yang Yang</p>
+      <p class="cv-links"><a href="https://arxiv.org/pdf/2503.08703" target="_blank" rel="noopener">ArXiv</a></p>
+    </div>
+    <div class="cv-venue">CVPR 2026</div>
+  </article>
+</div>
+<h2 id="Selected-Awards">Selected Awards</h2>
+<div class="cv-award-list">
+  <article class="cv-award">
+    <div><h3>AI Mathematical Olympiad - Progress Prize 2 (AIMO)</h3><p>Gold Medal, team ranked <strong>14<sup>th</sup>/2213</strong>.</p><p class="cv-links"><a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2/leaderboard" target="_blank" rel="noopener">Leaderboard</a><a href="https://www.kaggle.com/certification/competitions/jiyuanzhang0328/ai-mathematical-olympiad-progress-prize-2" target="_blank" rel="noopener">Personal Certificate</a><a href="https://cdn.jsdelivr.net/gh/EricZhang1412/PicGoStorage@master/img/AIMO-2_Gold.png" target="_blank" rel="noopener">Team Certificate</a></p></div>
+    <span>4/2025</span>
+  </article>
+  <article class="cv-award">
+    <div><h3>National Undergraduates Electronic Design Competition (NUEDC)</h3><p><strong>National First Prize</strong>. TI Microprocessor-Based Capacitance and Inductance Parameter Measurement Device.</p><p class="cv-links"><a href="https://www.ericzhuestc.site/2024/03/16/2023-NUEDC/" target="_blank" rel="noopener">Tech Report</a><a href="https://github.com/Xintong-kexie/2023_NUEDC_C_Solution" target="_blank" rel="noopener">Code</a></p></div>
+    <span>8/2023</span>
+  </article>
+  <article class="cv-award"><div><h3>University Student Competition Five-minute Research Presentation</h3><p><strong>National Grand Prize</strong></p></div><span>8/2023</span></article>
+  <article class="cv-award"><div><h3><em>Internet+</em> College Student Innovation and Entrepreneurship Competition - Industry Track</h3><p><strong>Provincial Silver Award</strong></p></div><span>8/2022</span></article>
+  <article class="cv-award"><div><h3>National College Students E-commerce Innovation, Creativity and Entrepreneurship Challenge Competition</h3><p><strong>Provincial Third Prize</strong></p></div><span>6/2023</span></article>
+  <article class="cv-award"><div><h3>National College Students Embedded Chip and System Design Competition</h3><p><strong>Provincial Third Prize</strong></p></div><span>8/2023</span></article>
+</div>
+<h2 id="Research-Experiences">Research Experiences</h2>
+<div class="cv-entry-list">
+  <article class="cv-entry">
+    <div class="cv-entry-top"><h3>Brain-Inspired Computing and Spiking Neural Networks</h3><span>UESTC | 9/2023 - Present</span></div>
+    <p class="cv-subtitle">Undergraduate Research Training, School of Computer Science and Engineering</p>
+    <ul>
+      <li>Systematic study of SNN working principles, training algorithms, and mainstream network architectures; participated in quantization work for Spike-driven Transformer focusing on model lightweighting.</li>
+      <li>Proficient in using and capable of secondary development of mainstream SNN libraries, including SpikingJelly, MMEngine, MMDetection, and MMSegmentation.</li>
+    </ul>
+  </article>
+  <article class="cv-entry">
+    <div class="cv-entry-top"><h3>Neural Network Hardware-Software Co-Design</h3><span>UESTC | 12/2023 - 12/2024</span></div>
+    <p class="cv-subtitle">Undergraduate Research Training, School of Information and Communication Engineering / School of Computer Science and Engineering</p>
+    <ul>
+      <li>Implemented an FPGA-based accelerator for a mechanical fault monitoring network using Verilog HDL and Vivado as part of an ASIC course design.</li>
+      <li>Researched acceleration strategies to develop energy-efficient deployment methods for SNNs on edge FPGA platforms.</li>
+      <li>Designed high-throughput parallel CNN accelerators by optimizing data flows, encapsulating DSP resources, and implementing layer-fusion quantization.</li>
+    </ul>
+  </article>
+  <article class="cv-entry">
+    <div class="cv-entry-top"><h3>Application and Implementation of SNN in 3D Features</h3><span>CASIA | 6/2024 - Present</span></div>
+    <p class="cv-subtitle">Research Internship, Institute of Automation, Chinese Academy of Sciences</p>
+    <ul>
+      <li>Developed an energy-efficient backbone network for 3D point cloud feature extraction, combining sparse convolution with spiking voxel encoding techniques.</li>
+      <li>Utilize and customize mainstream 3D point cloud processing libraries such as Pointcept, OpenPCDet, and Open3D to support rapid model iteration and validation in SNNs.</li>
+    </ul>
+  </article>
+  <article class="cv-entry">
+    <div class="cv-entry-top"><h3>Development of Large Language Models and Their Applications</h3><span>CUHK-Shenzhen | 3/2025 - Present</span></div>
+    <p class="cv-subtitle">Research Internship, The Chinese University of Hong Kong, Shenzhen</p>
+    <ul>
+      <li>Collaborated with the research group on AIMO, responsible for low-bit compression and inference deployment of the model.</li>
+      <li>Exploring linear-attention LLMs for inter-layer sharing and contextual learning; building a lightweight RWKV architecture with inter-layer parameter sharing and adaptive early-exit schemes.</li>
+    </ul>
+  </article>
+</div>
+<h2 id="Skills-Interests">Skills &amp; Interests</h2>
+<div class="cv-skill-grid">
+  <div><strong>Programming Languages</strong><span>C, Python, Verilog HDL, MATLAB</span></div>
+  <div><strong>Research Interests</strong><span>Spiking Neural Networks, Brain-inspired Computing</span></div>
+</div>
+<h2 id="Presentations">Presentations</h2>
+<div class="cv-talk-list">
+  <article class="cv-talk"><div><h3>Principles and Implementation of Transformer Models</h3><p><a href="https://www.bilibili.com/video/BV1vH4y1E7xs/" target="_blank" rel="noopener">Bilibili</a></p></div><span><i class="fas fa-eye"></i> 15k+ · <i class="far fa-thumbs-up"></i> 656</span></article>
+  <article class="cv-talk"><div><h3>Neural Network Quantization 01: Concepts of Quantization and PTQ</h3><p><a href="https://www.bilibili.com/video/BV1yJ4m1a75y/" target="_blank" rel="noopener">Bilibili</a></p></div><span><i class="fas fa-eye"></i> 1.15k · <i class="far fa-thumbs-up"></i> 42</span></article>
+  <article class="cv-talk"><div><h3>Neural Network Quantization 02: A Mathematical Understanding of QAT</h3><p><a href="https://www.bilibili.com/video/BV1Mx4y1k7Ma/" target="_blank" rel="noopener">Bilibili</a></p></div><span><i class="fas fa-eye"></i> 682 · <i class="far fa-thumbs-up"></i> 21</span></article>
+</div>
+<h2 id="Academic-Services">Academic Services</h2>
+<div class="cv-service-list">
+  <div><strong>International Conference on Learning Representations (ICLR) 2026</strong><span>Reviewer</span></div>
+  <div><strong>International Conference on Machine Learning (ICML) 2026</strong><span>Reviewer</span></div>
+  <div><strong>IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)</strong><span>Reviewer</span></div>
+  <div><strong>IEEE Transactions on Cognitive and Developmental Systems (TCDS)</strong><span>Reviewer</span></div>
+</div>
 ]]></content>
   </entry>
   <entry>
