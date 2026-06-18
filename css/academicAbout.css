@@ -825,3 +825,54 @@
     padding: 17px;
   }
 }
+
+/* Let the academic CV use more horizontal space than Butterfly's default page card. */
+#content-inner.layout.hide-aside:has(.academic-about) {
+  max-width: min(1640px, calc(100vw - 32px));
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+#content-inner.layout.hide-aside > .academic-about {
+  width: min(1540px, calc(100vw - 48px)) !important;
+  max-width: none;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.academic-about {
+  width: min(1540px, calc(100vw - 48px));
+}
+
+.academic-hero {
+  grid-template-columns: minmax(0, 1.25fr) minmax(360px, 420px);
+}
+
+.academic-summary {
+  max-width: 880px;
+}
+
+.academic-body {
+  grid-template-columns: 340px minmax(0, 1fr);
+}
+
+@media screen and (max-width: 980px) {
+  #content-inner.layout.hide-aside:has(.academic-about) {
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #content-inner.layout.hide-aside > .academic-about,
+  .academic-about {
+    width: min(100% - 12px, 1540px) !important;
+  }
+
+  .academic-hero,
+  .academic-body {
+    grid-template-columns: 1fr;
+  }
+}
