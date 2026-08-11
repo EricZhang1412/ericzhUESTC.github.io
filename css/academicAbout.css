@@ -950,3 +950,10 @@
 .academic-hero__card .academic-card-meta {
   margin-top: 0;
 }
+
+/* Slightly smaller hero title after visual review. */
+.academic-hero h1 {
+  max-width: 900px;
+  font-size: clamp(2rem, 3.85vw, 3.45rem);
+  letter-spacing: -0.045em;
+}
