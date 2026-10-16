@@ -9317,6 +9317,7 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
 <p>R/W per-thread registers <br>
 R/W per-grid global memory</p>
 </blockquote>
+<p>Host的代码/程序可以将数据搬移到这一片Global shared memory里，供GPU device的thread grid来读写。</p>
 ]]></content>
       <categories>
         <category>学习日志</category>
