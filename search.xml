@@ -9311,6 +9311,12 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
 
 <p><code>blockDim</code>是每一个线程块允许的最大线程个数。<code>blockIdx</code>和<code>threadIdx</code>是线程块和内部线程的索引。<code>.x/.y/.z</code>用于适配不同的数据维度，便于代码阅读。</p>
 <p>在CUDA中，代码本身不像是一个执行者（executor），更像是一个监督者（supervisor）。整个代码在监督一个外源的设备（outsourced device，即GPU）来进行大规模并行计算。包括以下几个步骤：分配外源设备内存、描述计算逻辑、将结果复制到Host里。</p>
+<h3 id="1-2-1-分配内存">1.2.1 分配内存</h3>
+<p>和CPU一样，GPU设备也有访问非常迅速并且访问开销很小的寄存器（Registers）。这些寄存器是通过线程的指令访问。同时，也有一块全局内存（Global memory），供所有线程都可以访问的一片内存空间。</p>
+<blockquote>
+<p>R/W per-thread registers <br>
+R/W per-grid global memory</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>学习日志</category>
