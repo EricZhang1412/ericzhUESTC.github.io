@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>2022-2023 大创项目——定制化汽车动力系统</title>
-    <url>/2023/03/26/01_%E5%A4%A7%E5%88%9B/</url>
+    <url>/2023/03/25/01_%E5%A4%A7%E5%88%9B/</url>
     <content><![CDATA[<h1>汽车功率需求仿真</h1>
 <h2 id="模型初步搭建与仿真验证">模型初步搭建与仿真验证</h2>
 <p>每个驾驶员有自己的驾驶习惯，不同的驾驶习惯对应不同的驾驶模式，不同的驾驶模式对应不同的功率需求。因此，我们需要对不同的驾驶模式进行仿真。</p>
@@ -412,7 +412,7 @@ Qt的安装参见官方文档：<a href="https://doc.qt.io/qt-5/windows.html#ins
   </entry>
   <entry>
     <title>Hi3861开发板使用与第六届全国大学生嵌入式竞赛海思赛道</title>
-    <url>/2023/03/27/03-Hi3861-Embedded-Competition/</url>
+    <url>/2023/03/26/03-Hi3861-Embedded-Competition/</url>
     <content><![CDATA[<h1>参考资料</h1>
 <p>海思技术论坛注册：<a href="https://developer.hisilicon.com/forum/all">https://developer.hisilicon.com/forum/all</a></p>
 <p>嵌入式物联网学习资料总入口：<a href="https://developer.hisilicon.com/postDetail?tid=0206112614830760003">https://developer.hisilicon.com/postDetail?tid=0206112614830760003</a></p>
@@ -1059,7 +1059,7 @@ ref:<a href="https://item.taobao.com/item.htm?spm=a21n57.1.0.0.7b90523cKNbIy1&am
   </entry>
   <entry>
     <title>Colima: as a substitute of Docker Desktop in MacOS</title>
-    <url>/2025/10/03/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/</url>
+    <url>/2025/10/02/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>学习日志</category>
@@ -1072,7 +1072,7 @@ ref:<a href="https://item.taobao.com/item.htm?spm=a21n57.1.0.0.7b90523cKNbIy1&am
   </entry>
   <entry>
     <title>Combinatorics (组合数学)</title>
-    <url>/2025/09/08/Combinatorics/</url>
+    <url>/2025/09/07/Combinatorics/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <ul>
 <li>任课教师：杨国武、卢光辉</li>
@@ -1938,7 +1938,7 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Continual Learning like human brain--Part 1.</title>
-    <url>/2026/01/25/Continual-Learning-like-human-brain/</url>
+    <url>/2026/01/24/Continual-Learning-like-human-brain/</url>
     <content><![CDATA[<p>Status: <code>施工中🏗️</code></p>
 <h1>0. Contents</h1>
 <ul>
@@ -3711,7 +3711,7 @@ c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></spa
   </entry>
   <entry>
     <title>DeepGEMM-Beginner</title>
-    <url>/2025/04/16/DeepGEMM-Beginner/</url>
+    <url>/2025/04/15/DeepGEMM-Beginner/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <p>没错 这是一个新坑</p>
 <h1>为什么要做DeepGEMM的探索</h1>
@@ -4710,7 +4710,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Event-based VFI</title>
-    <url>/2024/07/13/Event-based-Video-Frame-Interpolation/</url>
+    <url>/2024/07/12/Event-based-Video-Frame-Interpolation/</url>
     <content><![CDATA[<h2 id="Reference">Reference</h2>
 <p>[1] 	H. Cho, T. Kim, Y. Jeong, and K.-J. Yoon, “TTA-EVF: Test-Time Adaptation for Event-based Video Frame Interpolation via Reliable Pixel and Sample Estimation,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024, pp. 25701–25711.</p>
 <p>[2] 	J. Dong, K. Ota, and M. Dong, “Video Frame Interpolation: A Comprehensive Survey,” ACM Trans. Multimedia Comput. Commun. Appl., vol. 19, no. 2s, May 2023, doi: 10.1145/3556544.</p>
@@ -5059,7 +5059,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>再读祖师爷的Few-spikes Neuron</title>
-    <url>/2026/01/22/Few-Spikes-Neuron/</url>
+    <url>/2026/01/21/Few-Spikes-Neuron/</url>
     <content><![CDATA[<h1>0. 写在前面</h1>
 <p>其实一年前就读过了Stockl和Maass的FS神经元了，要义是用一个极简的神经元模型去拟合传统神经网络中的激活函数，也是给ANN-SNN Conversion提供了一个新思路。组内师兄师姐基于此做了一篇扩展FS多基编码用于SNN Converesion的<a href="https://arxiv.org/pdf/2508.07710?">工作</a>。但FS有关于生物学启发的部分当时并没有细致研究过。所以，通过这篇Blog，希望能够对这一部分理解更透。</p>
 <h1>1. FS Neuron的优越性</h1>
@@ -5089,7 +5089,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>FilterNet</title>
-    <url>/2024/12/01/FilterNet/</url>
+    <url>/2024/11/30/FilterNet/</url>
     <content><![CDATA[<h1>Ref</h1>
 <p>{ % FilterNet_2411.01623v2.pdf % }</p>
 <h1>Motivation</h1>
@@ -5177,7 +5177,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Finite Automaton Theory（有限自动机理论）</title>
-    <url>/2025/09/08/Finite-Automaton-Theory/</url>
+    <url>/2025/09/07/Finite-Automaton-Theory/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <ul>
 <li>任课教师：陈文宇</li>
@@ -5197,7 +5197,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>FireFly-v1-FPGA Simulation</title>
-    <url>/2024/04/30/FireFly-v1-FPGA-Simulation/</url>
+    <url>/2024/04/29/FireFly-v1-FPGA-Simulation/</url>
     <content><![CDATA[<h3 id="参考文献">参考文献</h3>
 <p>FireFly: A High-Throughput Hardware Accelerator for Spiking Neural Networks With Efficient DSP and Memory Optimization, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 10.1109/TVLSI.2023.3279349</p>
 <p>URL: <a href="https://ieeexplore.ieee.org/document/10143752/">https://ieeexplore.ieee.org/document/10143752/</a></p>
@@ -5307,7 +5307,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>毕业设计（一）文献阅读 [NeurIPS 2020] Neural Sparse Representation for Image Restoration</title>
-    <url>/2024/06/30/Graduation-Project-Design/</url>
+    <url>/2024/06/29/Graduation-Project-Design/</url>
     <content><![CDATA[<h2 id="参考文献">参考文献</h2>
 <p>(带标注，仅供参考)</p>
 
@@ -5436,7 +5436,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Linux Advanced Programming (Linux环境高级编程)</title>
-    <url>/2025/09/09/Linux-Advanced-Programming/</url>
+    <url>/2025/09/08/Linux-Advanced-Programming/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <ul>
 <li>任课教师：刘杰彦</li>
@@ -5457,7 +5457,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>毕业设计（三）文献调研：MINT-SNN</title>
-    <url>/2024/10/13/MINT/</url>
+    <url>/2024/10/12/MINT/</url>
     <content><![CDATA[<h2 id="Abstract">Abstract</h2>
 <p>本文创新点：</p>
 <ol>
@@ -5478,7 +5478,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Math4CS</title>
-    <url>/2025/12/16/Math4CS/</url>
+    <url>/2025/12/15/Math4CS/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <ul>
 <li>任课教师：许超，Bakhadyr Khoussainov</li>
@@ -5760,7 +5760,7 @@ M347 1759 V0 H263 V1759 v0 v1759 h84z"/></svg></span></span></span><span class="
   </entry>
   <entry>
     <title>毕业设计（三）文献调研：神经架构搜索与投射</title>
-    <url>/2024/08/04/NAS-1/</url>
+    <url>/2024/08/03/NAS-1/</url>
     <content><![CDATA[<h2 id="References">References</h2>
 <ol>
 <li>
@@ -5832,7 +5832,7 @@ M347 1759 V0 H263 V1759 v0 v1759 h84z"/></svg></span></span></span><span class="
   </entry>
   <entry>
     <title>Notes for Comp_Network</title>
-    <url>/2023/05/25/Notes-for-Comp-Network/</url>
+    <url>/2023/05/24/Notes-for-Comp-Network/</url>
     <content><![CDATA[<span id="more"></span>
 <h1>物理层</h1>
 <h2 id="2-1-数据通信理论基础">2.1 数据通信理论基础</h2>
@@ -5973,7 +5973,7 @@ PSK：相移键控:</p>
   </entry>
   <entry>
     <title>RNN部分问题的原理解释</title>
-    <url>/2023/11/23/RNN%E9%83%A8%E5%88%86%E9%97%AE%E9%A2%98%E7%9A%84%E5%8E%9F%E7%90%86%E8%A7%A3%E9%87%8A/</url>
+    <url>/2023/11/22/RNN%E9%83%A8%E5%88%86%E9%97%AE%E9%A2%98%E7%9A%84%E5%8E%9F%E7%90%86%E8%A7%A3%E9%87%8A/</url>
     <content><![CDATA[<h2 id="1-RNN的前向传播原理">1. RNN的前向传播原理</h2>
 <p>以一个Many-to-Many的简单RNN为例(输入输出维度相等)：</p>
 <p><img src="https://picst.sunbangyan.cn/2023/11/23/5cf7d08e7f85b50d6a9468fcc92cb26f.jpeg" alt="RNN Many-to-Many Model"></p>
@@ -6432,7 +6432,7 @@ c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></spa
   </entry>
   <entry>
     <title>Rethinking trending paradigms of neural networks</title>
-    <url>/2025/10/19/Rethinking-trending-paradigms-of-neural-networks/</url>
+    <url>/2025/10/18/Rethinking-trending-paradigms-of-neural-networks/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <p>近日博主发现2024、2025年，社区中涌现了一大批做Looping Network的工作（包括但不限于做数独、做迷宫、做路径规划。。。），一直想探索Looping在语言类任务的效果。最近又看到马里兰大学的研究，把Skipping和Looping结合到一起用MCST（蒙特卡洛搜索树）做最优的探索，居然在语言类的常规任务上取得了很好的提升（我之前自己做Looping在这些任务都是掉点的/可能是没做什么Continuous Training和别的）。于是想好好研究一下Looping背后的机制和原理，期望能带来某些insights。</p>
 <h1>现代神经网络的三种信息处理范式</h1>
@@ -6510,7 +6510,7 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>STELLAR_HPCA_2024</title>
-    <url>/2024/06/17/STELLAR-HPCA-2024/</url>
+    <url>/2024/06/16/STELLAR-HPCA-2024/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>学习日志</category>
@@ -6840,7 +6840,7 @@ s_0(t) &amp;= T\frac{sin \pi kT(1- \frac{|t|}{T})t}{\pi kTt}rect(\frac{t}{2T})\\
   </entry>
   <entry>
     <title>Spike-Driven Transformer</title>
-    <url>/2024/01/04/Spike-Driven-Transformer/</url>
+    <url>/2024/01/03/Spike-Driven-Transformer/</url>
     <content><![CDATA[<h2 id="1-注意力机制（Attention）">1.注意力机制（Attention）</h2>
 <h3 id="1-1-自注意力机制-（Self-Attention）">1.1 自注意力机制 （Self-Attention）</h3>
 <p>为了处理序列数据，自注意力采取的策略是，吃一整个序列，再根据输入的向量（一段序列）决定输出一个向量，再进入传统的FC，换言之，是考虑了整个序列之后输出一个结果。Self-Attention也可以与FC交替做很多次：</p>
@@ -6874,7 +6874,7 @@ s_0(t) &amp;= T\frac{sin \pi kT(1- \frac{|t|}{T})t}{\pi kTt}rect(\frac{t}{2T})\\
   </entry>
   <entry>
     <title>SpikingNN_on_trial</title>
-    <url>/2023/11/29/SpikingNN-on-trial/</url>
+    <url>/2023/11/28/SpikingNN-on-trial/</url>
     <content><![CDATA[<h2 id="refs">refs</h2>
 <ol>
 <li>Error-backpropagation in temporally encoded networks of spiking neurons, 10.1016/S0925-2312(01)00658-0</li>
@@ -7540,7 +7540,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Statistical Learning Theories and Applications (统计学习理论与应用)</title>
-    <url>/2025/09/08/Statistical-Learning-Theories-and-Applications/</url>
+    <url>/2025/09/07/Statistical-Learning-Theories-and-Applications/</url>
     <content><![CDATA[<h1>写在前面</h1>
 <ul>
 <li>任课教师：文泉</li>
@@ -7716,7 +7716,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>VIT_Need_Regs_ICLR_2024</title>
-    <url>/2024/06/17/VIT-Need-Regs-ICLR-2024/</url>
+    <url>/2024/06/16/VIT-Need-Regs-ICLR-2024/</url>
     <content><![CDATA[<h2 id="如何生成有一定可解释性的Attention-Map">如何生成有一定可解释性的Attention Map</h2>
 <p>参考Github Repo: <a href="https://github.com/jeonsworld/ViT-pytorch">jeonsworld/ViT-pytorch</a></p>
 <p><a href="http://xn--train-fg1hh3cxf22smm4b39h947dz8bu76j0hgba934o.py">我们先试着跑一跑仓库里的train.py</a>，本人写了一个脚本方便快速运行，作者也提供了预训练权重(.npz)。这里以ViT-B-16的模型为例：</p>
@@ -7807,7 +7807,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>Digital VLSI Design (RTL2GDS) Notes I</title>
-    <url>/2024/08/12/VLSI-Design/</url>
+    <url>/2024/08/11/VLSI-Design/</url>
     <content><![CDATA[<h2 id="1-Introduction">1. Introduction</h2>
 <p>学习路线：Design Abstraction-&gt;Design Automation(EDA)-&gt;Design Re-use(IP);</p>
 <h3 id="General-Design-Approach">General Design Approach</h3>
@@ -8128,7 +8128,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>ARM-Linux-MQTT移植</title>
-    <url>/2024/04/30/arm-linux-mqtt/</url>
+    <url>/2024/04/29/arm-linux-mqtt/</url>
     <content><![CDATA[<h2 id="在ZYNQ-7020-PS端使用paho-mqtt实现设备侧开发连接华为云IoTDA服务">在ZYNQ 7020 PS端使用paho.mqtt实现设备侧开发连接华为云IoTDA服务</h2>
 <p>（2024-2025第六学期综合课程设计自主设计任务的一环）</p>
 <h3 id="参考资料">参考资料</h3>
@@ -8246,7 +8246,7 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   </entry>
   <entry>
     <title>EMS-YOLO的魔改记录</title>
-    <url>/2024/07/23/ems-yolo-upgraded/</url>
+    <url>/2024/07/22/ems-yolo-upgraded/</url>
     <content><![CDATA[<h1>EMS-YOLO的工程结构</h1>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">EMS-YOLO</span><br><span class="line">├─ .ipynb_checkpoints</span><br><span class="line">├─ LICENSE</span><br><span class="line">├─ README.md</span><br><span class="line">├─ __pycache__</span><br><span class="line">├─ data</span><br><span class="line">├─ detect.py</span><br><span class="line">├─ environment.yml</span><br><span class="line">├─ export.py</span><br><span class="line">├─ firerate10_5.npy</span><br><span class="line">├─ g1-resnet</span><br><span class="line">├─ hubconf.py</span><br><span class="line">├─ models               # 网络模型文件</span><br><span class="line">│  ├─ __init__.py</span><br><span class="line">│  ├─ common.py</span><br><span class="line">│  ├─ common_origin.py</span><br><span class="line">│  ├─ experimental.py</span><br><span class="line">│  ├─ res10-ee.yaml</span><br><span class="line">│  ├─ res18-ee.yaml</span><br><span class="line">│  ├─ res18-eebk.yaml</span><br><span class="line">│  ├─ res18-sew.yaml</span><br><span class="line">│  ├─ resnet10.yaml</span><br><span class="line">│  ├─ resnet18.yaml</span><br><span class="line">│  ├─ resnet34-cat.yaml</span><br><span class="line">│  ├─ resnet34.yaml</span><br><span class="line">│  ├─ tf.py</span><br><span class="line">│  └─ yolo.py</span><br><span class="line">├─ requirements.txt</span><br><span class="line">├─ running_log.log</span><br><span class="line">├─ runs</span><br><span class="line">├─ size10_5.npy</span><br><span class="line">├─ train.py</span><br><span class="line">├─ train.sh</span><br><span class="line">├─ utils</span><br><span class="line">│  ├─ augmentations.py</span><br><span class="line">│  ├─ autoanchor.py</span><br><span class="line">│  ├─ autobatch.py</span><br><span class="line">│  ├─ callbacks.py</span><br><span class="line">│  ├─ datasets.py</span><br><span class="line">│  ├─ downloads.py</span><br><span class="line">│  ├─ general.py</span><br><span class="line">│  ├─ loggers</span><br><span class="line">│  │  ├─ __init__.py</span><br><span class="line">│  │  ├─ __pycache__</span><br><span class="line">│  │  └─ wandb</span><br><span class="line">│  │     ├─ __init__.py</span><br><span class="line">│  │     ├─ __pycache__</span><br><span class="line">│  │     ├─ log_dataset.py</span><br><span class="line">│  │     ├─ sweep.py</span><br><span class="line">│  │     ├─ sweep.yaml</span><br><span class="line">│  │     └─ wandb_utils.py</span><br><span class="line">│  ├─ loss.py</span><br><span class="line">│  ├─ metrics.py</span><br><span class="line">│  ├─ plots.py</span><br><span class="line">│  └─ torch_utils.py</span><br><span class="line">├─ val.py</span><br><span class="line">├─ visi_img.py</span><br><span class="line">└─ wandb</span><br></pre></td></tr></table></figure>
 <p>其中，<code>models/common.py</code>放了很多YOLO的基本模块定义。让我们来看一看这些模块的功能：</p>
@@ -8318,7 +8318,7 @@ u_c = \mathrm{clamp}(\frac{u_{nl}}{\alpha}, -1, 1)
   </entry>
   <entry>
     <title>Explainable neuromorphic computing</title>
-    <url>/2024/11/26/explainable-neuromorphic-computing/</url>
+    <url>/2024/11/25/explainable-neuromorphic-computing/</url>
     <content><![CDATA[<h1>Ref.</h1>
 <ol>
 <li>Visual explanations from spiking neural networks using inter‑spike intervals</li>
@@ -9097,7 +9097,7 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
   </entry>
   <entry>
     <title>校史馆的二三事</title>
-    <url>/2023/04/06/%E6%A0%A1%E5%8F%B2%E9%A6%86%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/</url>
+    <url>/2023/04/05/%E6%A0%A1%E5%8F%B2%E9%A6%86%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/</url>
     <content><![CDATA[<h1>校史馆解说词(2023 年 3 月)</h1>
 <p>欢迎大家来到电子科技大学校史馆。下面由我给大家介绍一下电子科技大学从建校至今 60 多年来的发展历程。整个校史馆共 432 个平方米，由三个厅组成。整个展览有五个组成部分，它们是：亲切关怀、殷切希望；建校初期，艰苦创业；文革十年、历经磨难；改革开放，盛世华章；新的世纪，新的跨越。</p>
 <span id="more"></span>
@@ -9280,6 +9280,44 @@ E{\bold{\alpha}(n)\bold{\alpha}^H(k)} = \bold{O}, k = 1,2,\dots,n-1
       </categories>
       <tags>
         <tag>校史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Notes-Learning to write kernels on a GPU</title>
+    <url>/2026/10/16/Notes-Learning-to-write-kernels-on-a-GPU/</url>
+    <content><![CDATA[<h2 id="0-参考资料">0. 参考资料</h2>
+<ul>
+<li><a href="https://iaroslavelistratov.github.io/b200-attention/">FlashAttention-4 from Scratch</a></li>
+</ul>
+<h2 id="1-Prerequisites-UIUC-ECE408-CS483-CSE408-Applied-Parallel-Programming">1. Prerequisites: UIUC ECE408/CS483/CSE408 Applied Parallel Programming</h2>
+<h3 id="1-1-Introduction">1.1 Introduction</h3>
+<h4 id="一个并行计算的Workflow应该是怎样的？">一个并行计算的Workflow应该是怎样的？</h4>
+<ul>
+<li>[ ] 识别一个算法/应用的计算密集部分</li>
+<li>[ ] 创建/调整一个可扩展的算法</li>
+<li>[ ] 优化数据编排方式，使其最大化数据的局部性</li>
+<li>[ ] 性能调整（针对内存和处理单元之间的带宽）</li>
+<li>[ ] 关注代码的<strong>可移植性</strong>，<strong>可扩展性</strong>和<strong>可维护性</strong></li>
+</ul>
+<h4 id="大规模并行计算的管理：规律性（Regularity）">大规模并行计算的管理：规律性（Regularity）</h4>
+<h4 id="负载均衡">负载均衡</h4>
+<p>并行任务的执行总时间取决于最长运行时间的线程。</p>
+<h4 id="全局的内存带宽">全局的内存带宽</h4>
+<h4 id="数据访问冲突导致的串行和延迟">数据访问冲突导致的串行和延迟</h4>
+<h3 id="1-2-CUDA-OpenCL-Execution-Model">1.2 CUDA/OpenCL Execution Model</h3>
+<p>两者的模型是一样的，只是处理方式些许不同。都是Host+device integrated app C/C++ 程序，即整个代码是包含了Host和Device的执行过程的，不用分成两个文件。程序中的<strong>关键字</strong>会规定这些代码隶属于Host还是Device还是二者共同的。Host的函数中会调用Kernel Call，用来做执行大规模并行化的入口。</p>
+
+<p>在Kernel Call Func.里，规定两个参数：nBlk【生成多少个线程块（Thread Block）】和nTid【每个线程块有多少个线程】。之前提到的Regularity体现在<strong>每一个线程块中的线程数量是一样的</strong>。这是一个很规则的执行模式。二者的集合就叫做Grid of Threads（线程网格）。CUDA采用的指令模式是单程序多数据（SPMD）</p>
+
+<p><code>blockDim</code>是每一个线程块允许的最大线程个数。<code>blockIdx</code>和<code>threadIdx</code>是线程块和内部线程的索引。<code>.x/.y/.z</code>用于适配不同的数据维度，便于代码阅读。</p>
+<p>在CUDA中，代码本身不像是一个执行者（executor），更像是一个监督者（supervisor）。整个代码在监督一个外源的设备（outsourced device，即GPU）来进行大规模并行计算。包括以下几个步骤：分配外源设备内存、描述计算逻辑、将结果复制到Host里。</p>
+]]></content>
+      <categories>
+        <category>学习日志</category>
+      </categories>
+      <tags>
+        <tag>AI Infra</tag>
+        <tag>算子设计</tag>
       </tags>
   </entry>
   <entry>
