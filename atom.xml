@@ -266,11 +266,11 @@
     <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
     
     
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
     <category term="Colima" scheme="http://www.ericzhuestc.site/tags/Colima/"/>
     
     <category term="Docker" scheme="http://www.ericzhuestc.site/tags/Docker/"/>
-    
-    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -333,9 +333,9 @@
     <category term="研究生课程" scheme="http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/"/>
     
     
-    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="云计算" scheme="http://www.ericzhuestc.site/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
+    
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
