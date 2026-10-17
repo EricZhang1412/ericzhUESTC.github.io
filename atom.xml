@@ -20,10 +20,10 @@
     <title>Notes-Learning to write kernels on a GPU</title>
     <link href="http://www.ericzhuestc.site/2026/10/16/Notes-Learning-to-write-kernels-on-a-GPU/"/>
     <id>http://www.ericzhuestc.site/2026/10/16/Notes-Learning-to-write-kernels-on-a-GPU/</id>
-    <published>2026-10-16T09:15:33.000Z</published>
+    <published>2026-10-15T18:15:33.000Z</published>
     <updated>2026-10-16T19:13:48.426Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="0-参考资料">0. 参考资料</h2><ul><li><a href="https://iaroslavelistratov.github.io/b200-attention/">FlashAttention-4 from Scratch</a></li></ul><h2 id="1-Prerequisites-UIUC-ECE408-CS483-CSE408-Applied-Parallel-Programming">1. Prerequisites: UIUC ECE408/CS483/CSE408 Applied Parallel Programming</h2><h3 id="1-1-Introduction">1.1 Introduction</h3><h4 id="一个并行计算的Workflow应该是怎样的？">一个并行计算的Workflow应该是怎样的？</h4><ul><li>[ ] 识别一个算法/应用的计算密集部分</li><li>[ ] 创建/调整一个可扩展的算法</li><li>[ ] 优化数据编排方式，使其最大化数据的局部性</li><li>[ ] 性能调整（针对内存和处理单元之间的带宽）</li><li>[ ] 关注代码的<strong>可移植性</strong>，<strong>可扩展性</strong>和<strong>可维护性</strong></li></ul><h4 id="大规模并行计算的管理：规律性（Regularity）">大规模并行计算的管理：规律性（Regularity）</h4><h4 id="负载均衡">负载均衡</h4><p>并行任务的执行总时间取决于最长运行时间的线程。</p><h4 id="全局的内存带宽">全局的内存带宽</h4><h4 id="数据访问冲突导致的串行和延迟">数据访问冲突导致的串行和延迟</h4><h3 id="1-2-CUDA-OpenCL-Execution-Model">1.2 CUDA/OpenCL Execution Model</h3><p>两者的模型是一样的，只是处理方式些许不同。都是Host+device integrated app C/C++ 程序，即整个代码是包含了Host和Device的执行过程的，不用分成两个文件。程序中的<strong>关键字</strong>会规定这些代码隶属于Host还是Device还是二者共同的。Host的函数中会调用Kernel Call，用来做执行大规模并行化的入口。</p><p>在Kernel Call Func.里，规定两个参数：nBlk【生成多少个线程块（Thread Block）】和nTid【每个线程块有多少个线程】。之前提到的Regularity体现在<strong>每一个线程块中的线程数量是一样的</strong>。这是一个很规则的执行模式。二者的集合就叫做Grid of Threads（线程网格）。CUDA采用的指令模式是单程序多数据（SPMD）</p><p><code>blockDim</code>是每一个线程块允许的最大线程个数。<code>blockIdx</code>和<code>threadIdx</code>是线程块和内部线程的索引。<code>.x/.y/.z</code>用于适配不同的数据维度，便于代码阅读。</p><p>在CUDA中，代码本身不像是一个执行者（executor），更像是一个监督者（supervisor）。整个代码在监督一个外源的设备（outsourced device，即GPU）来进行大规模并行计算。包括以下几个步骤：分配外源设备内存、描述计算逻辑、将结果复制到Host里。</p><h3 id="1-2-1-分配内存">1.2.1 分配内存</h3><p>和CPU一样，GPU设备也有访问非常迅速并且访问开销很小的寄存器（Registers）。这些寄存器是通过线程的指令访问。同时，也有一块全局内存（Global memory），供所有线程都可以访问的一片内存空间。</p><blockquote><p>R/W per-thread registers <br>R/W per-grid global memory</p></blockquote><p>Host的代码/程序可以将数据搬移到这一片Global shared memory里，供GPU device的thread grid来读写。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="0-参考资料">0. 参考资料</h2><ul><li><a href="https://iaroslavelistratov.github.io/b200-attention/">FlashAttention-4 from Scratch</a></li></ul><h2 id="1-Prerequisites-UIUC-ECE408-CS483-CSE408-Applied-Parallel-Programming">1. Prerequisites: UIUC ECE408/CS483/CSE408 Applied Parallel Programming</h2><h3 id="1-1-Introduction">1.1 Introduction</h3><h4 id="一个并行计算的Workflow应该是怎样的？">一个并行计算的Workflow应该是怎样的？</h4><ul><li>[ ] 识别一个算法/应用的计算密集部分</li><li>[ ] 创建/调整一个可扩展的算法</li><li>[ ] 优化数据编排方式，使其最大化数据的局部性</li><li>[ ] 性能调整（针对内存和处理单元之间的带宽）</li><li>[ ] 关注代码的<strong>可移植性</strong>，<strong>可扩展性</strong>和<strong>可维护性</strong></li></ul><h4 id="大规模并行计算的管理：规律性（Regularity）">大规模并行计算的管理：规律性（Regularity）</h4><h4 id="负载均衡">负载均衡</h4><p>并行任务的执行总时间取决于最长运行时间的线程。</p><h4 id="全局的内存带宽">全局的内存带宽</h4><h4 id="数据访问冲突导致的串行和延迟">数据访问冲突导致的串行和延迟</h4><h3 id="1-2-CUDA-OpenCL-Execution-Model">1.2 CUDA/OpenCL Execution Model</h3><p>两者的模型是一样的，只是处理方式些许不同。都是Host+device integrated app C/C++ 程序，即整个代码是包含了Host和Device的执行过程的，不用分成两个文件。程序中的<strong>关键字</strong>会规定这些代码隶属于Host还是Device还是二者共同的。Host的函数中会调用Kernel Call，用来做执行大规模并行化的入口。</p><img src="/2026/10/16/Notes-Learning-to-write-kernels-on-a-GPU/figs/fig_01_exec_cuda_program.png" class="" title="GPU执行CUDA程序的简化过程"><p>在Kernel Call Func.里，规定两个参数：nBlk【生成多少个线程块（Thread Block）】和nTid【每个线程块有多少个线程】。之前提到的Regularity体现在<strong>每一个线程块中的线程数量是一样的</strong>。这是一个很规则的执行模式。二者的集合就叫做Grid of Threads（线程网格）。CUDA采用的指令模式是单程序多数据（SPMD）</p><img src="/2026/10/16/Notes-Learning-to-write-kernels-on-a-GPU/figs/fig_02_threads_in_a_grid.png" class="" title="线程网格的示例（以向量加法为例）"><p><code>blockDim</code>是每一个线程块允许的最大线程个数。<code>blockIdx</code>和<code>threadIdx</code>是线程块和内部线程的索引。<code>.x/.y/.z</code>用于适配不同的数据维度，便于代码阅读。</p><p>在CUDA中，代码本身不像是一个执行者（executor），更像是一个监督者（supervisor）。整个代码在监督一个外源的设备（outsourced device，即GPU）来进行大规模并行计算。包括以下几个步骤：分配外源设备内存、描述计算逻辑、将结果复制到Host里。</p><h3 id="1-2-1-分配内存">1.2.1 分配内存</h3><p>和CPU一样，GPU设备也有访问非常迅速并且访问开销很小的寄存器（Registers）。这些寄存器是通过线程的指令访问。同时，也有一块全局内存（Global memory），供所有线程都可以访问的一片内存空间。</p><blockquote><p>R/W per-thread registers <br>R/W per-grid global memory</p></blockquote><p>Host的代码/程序可以将数据搬移到这一片Global shared memory里，供GPU device的thread grid来读写。</p>]]></content>
     
     
       
@@ -79,8 +79,8 @@
   
   <entry>
     <title>Continual Learning like human brain--Part 1.</title>
-    <link href="http://www.ericzhuestc.site/2026/01/24/Continual-Learning-like-human-brain/"/>
-    <id>http://www.ericzhuestc.site/2026/01/24/Continual-Learning-like-human-brain/</id>
+    <link href="http://www.ericzhuestc.site/2026/01/25/Continual-Learning-like-human-brain/"/>
+    <id>http://www.ericzhuestc.site/2026/01/25/Continual-Learning-like-human-brain/</id>
     <published>2026-01-25T00:22:56.000Z</published>
     <updated>2026-01-30T08:02:34.657Z</updated>
     
@@ -116,8 +116,8 @@
   
   <entry>
     <title>再读祖师爷的Few-spikes Neuron</title>
-    <link href="http://www.ericzhuestc.site/2026/01/21/Few-Spikes-Neuron/"/>
-    <id>http://www.ericzhuestc.site/2026/01/21/Few-Spikes-Neuron/</id>
+    <link href="http://www.ericzhuestc.site/2026/01/22/Few-Spikes-Neuron/"/>
+    <id>http://www.ericzhuestc.site/2026/01/22/Few-Spikes-Neuron/</id>
     <published>2026-01-22T00:54:19.000Z</published>
     <updated>2026-01-22T01:35:49.652Z</updated>
     
@@ -147,8 +147,8 @@
   
   <entry>
     <title>Math4CS</title>
-    <link href="http://www.ericzhuestc.site/2025/12/15/Math4CS/"/>
-    <id>http://www.ericzhuestc.site/2025/12/15/Math4CS/</id>
+    <link href="http://www.ericzhuestc.site/2025/12/16/Math4CS/"/>
+    <id>http://www.ericzhuestc.site/2025/12/16/Math4CS/</id>
     <published>2025-12-16T01:23:02.000Z</published>
     <updated>2025-12-17T12:34:36.804Z</updated>
     
@@ -224,8 +224,8 @@
   
   <entry>
     <title>Rethinking trending paradigms of neural networks</title>
-    <link href="http://www.ericzhuestc.site/2025/10/18/Rethinking-trending-paradigms-of-neural-networks/"/>
-    <id>http://www.ericzhuestc.site/2025/10/18/Rethinking-trending-paradigms-of-neural-networks/</id>
+    <link href="http://www.ericzhuestc.site/2025/10/19/Rethinking-trending-paradigms-of-neural-networks/"/>
+    <id>http://www.ericzhuestc.site/2025/10/19/Rethinking-trending-paradigms-of-neural-networks/</id>
     <published>2025-10-19T03:40:13.000Z</published>
     <updated>2025-10-21T03:52:11.000Z</updated>
     
@@ -255,8 +255,8 @@
   
   <entry>
     <title>Colima: as a substitute of Docker Desktop in MacOS</title>
-    <link href="http://www.ericzhuestc.site/2025/10/02/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/"/>
-    <id>http://www.ericzhuestc.site/2025/10/02/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/</id>
+    <link href="http://www.ericzhuestc.site/2025/10/03/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/"/>
+    <id>http://www.ericzhuestc.site/2025/10/03/Colima-as-a-substitute-of-Docker-Desktop-in-MacOS/</id>
     <published>2025-10-03T02:24:07.000Z</published>
     <updated>2025-10-03T05:16:25.000Z</updated>
     
@@ -266,11 +266,11 @@
     <category term="学习日志" scheme="http://www.ericzhuestc.site/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/"/>
     
     
-    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="Colima" scheme="http://www.ericzhuestc.site/tags/Colima/"/>
     
     <category term="Docker" scheme="http://www.ericzhuestc.site/tags/Docker/"/>
+    
+    <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -333,16 +333,16 @@
     <category term="研究生课程" scheme="http://www.ericzhuestc.site/categories/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AF%BE%E7%A8%8B/"/>
     
     
-    <category term="云计算" scheme="http://www.ericzhuestc.site/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
-    
     <category term="学习笔记" scheme="http://www.ericzhuestc.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="云计算" scheme="http://www.ericzhuestc.site/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
     
   </entry>
   
   <entry>
     <title>Linux Advanced Programming (Linux环境高级编程)</title>
-    <link href="http://www.ericzhuestc.site/2025/09/08/Linux-Advanced-Programming/"/>
-    <id>http://www.ericzhuestc.site/2025/09/08/Linux-Advanced-Programming/</id>
+    <link href="http://www.ericzhuestc.site/2025/09/09/Linux-Advanced-Programming/"/>
+    <id>http://www.ericzhuestc.site/2025/09/09/Linux-Advanced-Programming/</id>
     <published>2025-09-09T06:10:46.000Z</published>
     <updated>2025-09-23T03:19:36.000Z</updated>
     
@@ -377,8 +377,8 @@
   
   <entry>
     <title>Finite Automaton Theory（有限自动机理论）</title>
-    <link href="http://www.ericzhuestc.site/2025/09/07/Finite-Automaton-Theory/"/>
-    <id>http://www.ericzhuestc.site/2025/09/07/Finite-Automaton-Theory/</id>
+    <link href="http://www.ericzhuestc.site/2025/09/08/Finite-Automaton-Theory/"/>
+    <id>http://www.ericzhuestc.site/2025/09/08/Finite-Automaton-Theory/</id>
     <published>2025-09-08T06:36:10.000Z</published>
     <updated>2025-09-23T03:19:33.000Z</updated>
     
@@ -411,8 +411,8 @@
   
   <entry>
     <title>Statistical Learning Theories and Applications (统计学习理论与应用)</title>
-    <link href="http://www.ericzhuestc.site/2025/09/07/Statistical-Learning-Theories-and-Applications/"/>
-    <id>http://www.ericzhuestc.site/2025/09/07/Statistical-Learning-Theories-and-Applications/</id>
+    <link href="http://www.ericzhuestc.site/2025/09/08/Statistical-Learning-Theories-and-Applications/"/>
+    <id>http://www.ericzhuestc.site/2025/09/08/Statistical-Learning-Theories-and-Applications/</id>
     <published>2025-09-08T02:19:10.000Z</published>
     <updated>2025-09-23T03:19:47.000Z</updated>
     
@@ -444,8 +444,8 @@
   
   <entry>
     <title>Combinatorics (组合数学)</title>
-    <link href="http://www.ericzhuestc.site/2025/09/07/Combinatorics/"/>
-    <id>http://www.ericzhuestc.site/2025/09/07/Combinatorics/</id>
+    <link href="http://www.ericzhuestc.site/2025/09/08/Combinatorics/"/>
+    <id>http://www.ericzhuestc.site/2025/09/08/Combinatorics/</id>
     <published>2025-09-08T01:22:53.000Z</published>
     <updated>2025-11-21T14:04:37.382Z</updated>
     
@@ -510,8 +510,8 @@
   
   <entry>
     <title>DeepGEMM-Beginner</title>
-    <link href="http://www.ericzhuestc.site/2025/04/15/DeepGEMM-Beginner/"/>
-    <id>http://www.ericzhuestc.site/2025/04/15/DeepGEMM-Beginner/</id>
+    <link href="http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/"/>
+    <id>http://www.ericzhuestc.site/2025/04/16/DeepGEMM-Beginner/</id>
     <published>2025-04-16T03:50:06.000Z</published>
     <updated>2025-09-23T03:19:25.000Z</updated>
     
